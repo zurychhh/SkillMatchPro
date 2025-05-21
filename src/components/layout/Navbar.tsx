@@ -10,6 +10,7 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const router = useRouter();
   const { level, progress } = useAchievements();
+  const isHomePage = router.pathname === '/';
   
   // Handle scroll effect for navbar
   useEffect(() => {
@@ -34,14 +35,14 @@ const Navbar = () => {
   ];
   
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      scrolled ? 'bg-white dark:bg-gray-900 shadow-md py-2' : 'bg-transparent py-4'
+    <header className={`${isHomePage ? 'absolute' : 'fixed'} top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      scrolled || !isHomePage ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
     }`}>
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link href="/">
-            <span className="text-2xl font-bold text-blue-600 dark:text-blue-400">
+            <span className="text-2xl font-bold text-blue-600">
               Oleksiak Consult
             </span>
           </Link>
@@ -50,8 +51,10 @@ const Navbar = () => {
           <nav className="hidden md:flex items-center space-x-8">
             {navLinks.map(link => (
               <Link key={link.href} href={link.href}>
-                <span className={`text-sm font-medium transition hover:text-blue-600 dark:hover:text-blue-400 ${
-                  router.pathname === link.href ? 'text-blue-600 dark:text-blue-400' : 'text-gray-700 dark:text-gray-300'
+                <span className={`text-sm font-medium transition hover:text-blue-600 ${
+                  router.pathname === link.href 
+                    ? 'text-blue-600' 
+                    : isHomePage && !scrolled ? 'text-white' : 'text-gray-700'
                 }`}>
                   {link.label}
                 </span>
@@ -72,7 +75,7 @@ const Navbar = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6 text-gray-700 dark:text-gray-300"
+              className={`h-6 w-6 ${isHomePage && !scrolled ? 'text-white' : 'text-gray-700'}`}
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -96,14 +99,14 @@ const Navbar = () => {
               transition={{ duration: 0.3 }}
               className="md:hidden overflow-hidden"
             >
-              <div className="py-4 space-y-3">
+              <div className="py-4 space-y-3 bg-white rounded-lg mt-2 shadow-lg">
                 {navLinks.map(link => (
                   <Link key={link.href} href={link.href}>
                     <span
                       className={`block py-2 px-4 rounded transition ${
                         router.pathname === link.href
-                          ? 'bg-blue-50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400'
-                          : 'text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800'
+                          ? 'bg-blue-50 text-blue-600'
+                          : 'text-gray-700 hover:bg-gray-50'
                       }`}
                       onClick={() => setIsOpen(false)}
                     >
