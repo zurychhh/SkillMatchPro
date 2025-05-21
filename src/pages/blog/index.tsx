@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { NextPage, GetServerSideProps } from 'next';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
@@ -17,7 +17,7 @@ const BlogPage: NextPage<BlogPageProps> = ({ posts }) => {
   const { recordVisit } = useAchievements();
 
   // Record blog visit for achievement tracking
-  React.useEffect(() => {
+  useEffect(() => {
     recordVisit('blog');
   }, [recordVisit]);
 

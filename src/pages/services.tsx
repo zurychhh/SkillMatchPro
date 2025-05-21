@@ -10,7 +10,7 @@ const ServicesPage: NextPage = () => {
   const { recordVisit } = useAchievements();
 
   // Record services page visit for achievement tracking
-  React.useEffect(() => {
+  useEffect(() => {
     recordVisit('services');
   }, [recordVisit]);
 
