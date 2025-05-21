@@ -14,7 +14,7 @@ const Home: NextPage = () => {
   const { recordVisit } = useAchievements();
 
   // Record homepage visit for achievement tracking
-  React.useEffect(() => {
+  useEffect(() => {
     recordVisit('homepage');
   }, [recordVisit]);
 

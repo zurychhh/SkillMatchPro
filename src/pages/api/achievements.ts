@@ -16,28 +16,34 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     const { db } = await connectToDatabase();
 
     // Check if user exists
-    const existingUser = await db.collection('users').findOne({ userId });
+    try {
+      const existingUser = await db.collection('users').findOne({ userId });
 
-    if (!existingUser) {
-      // Create new user with achievements
-      await db.collection('users').insertOne({
-        userId,
-        createdAt: new Date(),
-        lastActive: new Date(),
-        achievements
-      });
-    } else {
-      // Update existing user achievements
-      await db.collection('users').updateOne(
-        { userId },
-        { 
-          $set: { 
-            achievements,
-            lastActive: new Date(),
-            progress
-          } 
-        }
-      );
+      if (!existingUser) {
+        // Create new user with achievements
+        await db.collection('users').insertOne({
+          userId,
+          createdAt: new Date(),
+          lastActive: new Date(),
+          achievements,
+          progress
+        });
+      } else {
+        // Update existing user achievements
+        await db.collection('users').updateOne(
+          { userId },
+          { 
+            $set: { 
+              achievements,
+              lastActive: new Date(),
+              progress
+            } 
+          }
+        );
+      }
+    } catch (error) {
+      console.log('Error updating achievements:', error);
+      // Continue with the API response even if database update fails
     }
 
     // Determine achievement level based on progress
