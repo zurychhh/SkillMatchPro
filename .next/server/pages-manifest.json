@@ -3,6 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/api/achievements-db": "pages/api/achievements-db.js",
   "/api/simple-achievements": "pages/api/simple-achievements.js"
 }
