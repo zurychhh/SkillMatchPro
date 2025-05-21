@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
   images: {
     domains: [
       'pixabay.com',
@@ -62,10 +61,11 @@ const nextConfig = {
   publicRuntimeConfig: {
     apiBaseUrl: process.env.NEXT_PUBLIC_API_BASE_URL || '',
   },
-  // Bind to specified host and port
+  // Use Next.js 15 compatible options
   experimental: {
-    staticPrefetch: false,
+    optimizeCss: true,
   },
+  // Linting and type checking during development only
   eslint: {
     ignoreDuringBuilds: true,
   },
