@@ -1,0 +1,71 @@
+# Prompt for creating the technical setup of Oleksiak Consult project in Replit
+
+I need to configure a Next.js 14 project with MongoDB for the Oleksiak Consult website in Replit, which will be compatible with the existing AIToolkit module. The setup should be optimal, minimizing the need for manual coding, with emphasis on effective integration of the frontend from Figma with the backend.
+
+## Technical requirements for the main project:
+1. **Technology stack:** 
+   - Next.js 14 (as framework)
+   - MongoDB (for data storage)
+   - Tailwind CSS (for styling)
+   - TypeScript (for consistency with AIToolkit)
+   - Achievement system with 3 levels at 33.3% each
+
+2. **Figma integration:**
+   - Setup must allow easy integration of components exported from Figma
+   - Use the official "Figma to Replit" plugin or similar solution
+   - Preferred low-code solution for design integration
+
+3. **Database structure:**
+   - Collections for users (anonymous)
+   - Collection for user achievements
+   - Collection for newsletter subscribers
+   - Collection for blog posts
+
+4. **MongoDB connection:**
+   - Secure storage of connection string in Replit environment variables
+   - Implementation of connection pooling pattern
+   - Middleware for database connection
+
+5. **Achievement system:**
+   - Tracking user progress (Explorer, Strategist, Partner)
+   - Storing progress in localStorage and synchronizing with database
+   - Achievement notification system
+   - Compatibility with AchievementProvider from AIToolkit module
+
+6. **Deployment and environment:**
+   - Configuration for easy deployment in Replit
+   - Setting up environment variables
+   - Optimization for fast loading
+
+## Requirements for compatibility with AIToolkit:
+1. **Library integration:**
+   - Shadcn UI - for UI component consistency
+   - Radix UI - for accessible UI components
+   - Lucide React - for icons
+   - React Hook Form + Zod - for form management
+   - React Query - for state and query management
+   - Framer Motion - for animations
+   - Recharts - for data visualization
+
+2. **TypeScript structure:**
+   - Consistent data types between projects
+   - Shared interfaces for achievement components
+
+3. **Context Providers:**
+   - Integration of ToolRegistryProvider from AIToolkit
+   - Shared AchievementProvider for tracking progress
+
+4. **API and services:**
+   - Consistent API format for communication between modules
+   - Common services for cache handling and API queries
+
+Please provide a detailed technical plan, including:
+1. File and directory structure that includes the AIToolkit module
+2. Instructions for configuring the Replit environment
+3. Code for key components, such as MongoDB connection
+4. Strategy for implementing an achievement system compatible with AIToolkit
+5. Approach to integrating components from Figma
+6. Necessary dependencies to install, including libraries from AIToolkit
+7. Plan for integrating the AIToolkit module with the main project
+
+Goal: Configure the project in a way that minimizes the need for manual coding, ensures compatibility with the existing AIToolkit module, and maximizes the probability of project success.
