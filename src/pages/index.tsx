@@ -41,22 +41,41 @@ const Home: NextPage = () => {
           position: 'relative',
           zIndex: 10
         }}>
-          <div style={{ display: 'flex', alignItems: 'center' }}>
-            <img 
-              src="/images/AI EMPOWERED CRM SOLUTIONS – kopia (1).svg" 
-              alt="Oleksiak Consult Logo" 
-              style={{ 
-                width: '32px', 
-                height: '32px', 
-                borderRadius: '4px' 
-              }}
-            />
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+            <div style={{ 
+              color: '#162356', 
+              fontSize: '24px', 
+              fontWeight: 'bold', 
+              fontFamily: 'Inter, sans-serif',
+              letterSpacing: '0.5px'
+            }}>
+              OLEKSIAK CONSULT
+            </div>
+            <div style={{ 
+              width: '100%',
+              height: '4px',
+              marginTop: '2px',
+              background: 'linear-gradient(90deg, #9B55C6 0%, #5F7EE8 50%, #4A8DFF 100%)',
+              borderRadius: '10px',
+              position: 'relative'
+            }}>
+              <div style={{ 
+                position: 'absolute',
+                width: '12px',
+                height: '12px',
+                borderRadius: '50%',
+                backgroundColor: '#5F7EE8',
+                right: '10%',
+                top: '-4px'
+              }}></div>
+            </div>
           </div>
           
           <nav style={{ 
             display: 'flex', 
             gap: '30px',
-            marginLeft: '30px'
+            marginLeft: 'auto',
+            marginRight: 'auto'
           }}>
             <a href="#" style={{ color: '#162356', fontSize: '16px', fontWeight: '500' }}>Services</a>
             <a href="#" style={{ color: '#162356', fontSize: '16px', fontWeight: '500' }}>Solutions</a>
