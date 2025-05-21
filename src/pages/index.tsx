@@ -101,9 +101,9 @@ const Home: NextPage = () => {
         <section style={{
           backgroundColor: '#162356',
           position: 'relative',
-          padding: '0',
+          padding: '0 0 60px 0',
           overflow: 'hidden',
-          height: '720px'
+          height: '780px'
         }}>
           {/* Background gradient oval */}
           <div style={{ 
