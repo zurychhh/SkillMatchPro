@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { useRouter } from 'next/router';
 import { motion } from 'framer-motion';
 import { services } from '@/data/services';
@@ -54,12 +54,10 @@ const Services = () => {
               <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/70 z-10" />
               
               <div className="h-64 bg-gray-200 dark:bg-gray-700 relative">
-                {/* Service icon at the center */}
                 <div className="absolute inset-0 flex items-center justify-center z-20">
-                  <service.icon className="h-20 w-20 text-white" />
+                  {React.createElement(service.icon, { className: "h-20 w-20 text-white" })}
                 </div>
                 
-                {/* Service details at the bottom */}
                 <div className="absolute bottom-0 left-0 right-0 p-6 z-20">
                   <h3 className="text-xl font-semibold text-white mb-2">{service.title}</h3>
                   <p className="text-gray-200 mb-4 text-sm line-clamp-2">{service.description}</p>
@@ -78,7 +76,6 @@ const Services = () => {
           ))}
         </div>
         
-        {/* Active Service Details */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -89,7 +86,7 @@ const Services = () => {
           <div className="flex flex-col md:flex-row">
             <div className="md:w-1/3 mb-6 md:mb-0 md:pr-8">
               <div className="bg-blue-600 text-white p-6 rounded-lg inline-flex">
-                <services[activeIndex].icon className="h-12 w-12" />
+                {React.createElement(services[activeIndex].icon, { className: "h-12 w-12" })}
               </div>
               <h3 className="text-2xl font-bold mt-4 mb-2">{services[activeIndex].title}</h3>
               <button
