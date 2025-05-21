@@ -6,7 +6,7 @@
  */
 export async function updateUserAchievements(userId: string, achievementsData: any, progressValue: number) {
   try {
-    const response = await fetch('/api/achievements-db', {
+    const response = await fetch('/api/simple-achievements', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
