@@ -3,7 +3,7 @@ import { NextPage } from 'next';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
 import MainLayout from '@/components/layout/MainLayout';
-import Hero from '@/components/home/Hero';
+import NewHero from '@/components/home/NewHero';
 import { useAchievements } from '@/hooks/useAchievements';
 
 const Home: NextPage = () => {
@@ -26,7 +26,7 @@ const Home: NextPage = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <Hero />
+          <NewHero />
         </motion.div>
       </MainLayout>
     </>
