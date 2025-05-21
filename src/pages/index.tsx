@@ -42,12 +42,15 @@ const Home: NextPage = () => {
           zIndex: 10
         }}>
           <div style={{ display: 'flex', alignItems: 'center' }}>
-            <div style={{ 
-              width: '32px', 
-              height: '32px', 
-              backgroundColor: '#5F7EE8', 
-              borderRadius: '4px'
-            }}></div>
+            <img 
+              src="/images/AI EMPOWERED CRM SOLUTIONS – kopia (1).svg" 
+              alt="Oleksiak Consult Logo" 
+              style={{ 
+                width: '32px', 
+                height: '32px', 
+                borderRadius: '4px' 
+              }}
+            />
           </div>
           
           <nav style={{ 
