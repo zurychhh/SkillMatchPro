@@ -36,8 +36,7 @@ const Home: NextPage = () => {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
-          padding: '15px 30px',
-          borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
+          padding: '15px 40px',
           backgroundColor: 'white',
           position: 'relative',
           zIndex: 10
@@ -47,33 +46,26 @@ const Home: NextPage = () => {
               width: '32px', 
               height: '32px', 
               backgroundColor: '#5F7EE8', 
-              borderRadius: '4px',
-              marginRight: '10px'
+              borderRadius: '4px'
             }}></div>
-            <div style={{ 
-              fontWeight: 'bold', 
-              color: '#162356', 
-              fontSize: '16px'
-            }}>
-              Oleksiak Consult
-            </div>
           </div>
           
           <nav style={{ 
             display: 'flex', 
-            gap: '25px'
+            gap: '30px',
+            marginLeft: '30px'
           }}>
-            <a href="#" style={{ color: '#162356', fontSize: '15px', fontWeight: '500' }}>Services</a>
-            <a href="#" style={{ color: '#162356', fontSize: '15px', fontWeight: '500' }}>Solutions</a>
-            <a href="#" style={{ color: '#162356', fontSize: '15px', fontWeight: '500' }}>Case Studies</a>
-            <a href="#" style={{ color: '#162356', fontSize: '15px', fontWeight: '500' }}>Resources</a>
-            <a href="#" style={{ color: '#162356', fontSize: '15px', fontWeight: '500' }}>About Us</a>
+            <a href="#" style={{ color: '#162356', fontSize: '16px', fontWeight: '500' }}>Services</a>
+            <a href="#" style={{ color: '#162356', fontSize: '16px', fontWeight: '500' }}>Solutions</a>
+            <a href="#" style={{ color: '#162356', fontSize: '16px', fontWeight: '500' }}>Case Studies</a>
+            <a href="#" style={{ color: '#162356', fontSize: '16px', fontWeight: '500' }}>Resources</a>
+            <a href="#" style={{ color: '#162356', fontSize: '16px', fontWeight: '500' }}>About Us</a>
           </nav>
           
           <button style={{ 
-            padding: '8px 16px', 
+            padding: '9px 18px', 
             border: '1px solid #162356', 
-            borderRadius: '8px',
+            borderRadius: '6px',
             backgroundColor: 'white',
             color: '#162356',
             fontWeight: '500',
@@ -139,14 +131,14 @@ const Home: NextPage = () => {
                 fontWeight: 'bold',
                 lineHeight: '1.2',
                 marginTop: '0',
-                marginBottom: '60px',
+                marginBottom: '70px',
                 maxWidth: '600px'
               }}>
-                Bridge The Gap Between & Technical Innovation Customer Acquisition
+                Bridge The Gap Between & <br />Technical Innovation <br />Customer Acquisition
               </h1>
               
               {/* Feature points with icons */}
-              <div style={{ marginBottom: '50px' }}>
+              <div style={{ marginBottom: '60px' }}>
                 <div style={{ 
                   display: 'flex', 
                   alignItems: 'center', 
@@ -168,7 +160,7 @@ const Home: NextPage = () => {
                     </svg>
                   </div>
                   <div style={{ fontSize: '18px' }}>
-                    <span style={{ fontWeight: 'bold' }}>42% reduction</span> in acquisition costs
+                    in acquisition costs
                   </div>
                 </div>
                 
@@ -193,7 +185,7 @@ const Home: NextPage = () => {
                     </svg>
                   </div>
                   <div style={{ fontSize: '18px' }}>
-                    <span style={{ fontWeight: 'bold' }}>Performance-based</span> pricing
+                    pricing
                   </div>
                 </div>
                 
@@ -217,7 +209,7 @@ const Home: NextPage = () => {
                     </svg>
                   </div>
                   <div style={{ fontSize: '18px' }}>
-                    <span style={{ fontWeight: 'bold' }}>Positive ROI</span> guaranteed
+                    guaranteed
                   </div>
                 </div>
               </div>
@@ -225,14 +217,14 @@ const Home: NextPage = () => {
               {/* CTA Buttons */}
               <div style={{ 
                 display: 'flex', 
-                gap: '16px',
-                marginBottom: '30px'
+                gap: '20px',
+                marginBottom: '40px'
               }}>
                 <button style={{ 
                   padding: '14px 20px',
                   height: '56px',
                   minWidth: '200px',
-                  background: 'linear-gradient(135deg, #9B55C6 0%, #4A8DFF 100%)',
+                  background: 'linear-gradient(135deg, #9B55C6 0%, #5F7EE8 100%)',
                   color: 'white',
                   border: 'none',
                   borderRadius: '8px',
@@ -241,10 +233,10 @@ const Home: NextPage = () => {
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  boxShadow: '0 10px 20px rgba(74, 141, 255, 0.25)'
+                  boxShadow: '0 10px 15px rgba(155, 85, 198, 0.25)'
                 }}>
-                  <svg style={{ marginRight: '8px' }} width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M2 0C0.896875 0 0 0.896875 0 2V14C0 15.1031 0.896875 16 2 16H10C11.1031 16 12 15.1031 12 14V2C12 0.896875 11.1031 0 10 0H2Z" fill="white"/>
+                  <svg style={{ marginRight: '8px' }} width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 5.5C16 4.39688 15.6031 3.39062 14.9344 2.72188C14.2656 2.05312 13.2562 1.65625 12.1562 1.65625H3.84375C2.74375 1.65625 1.73438 2.05312 1.06562 2.72188C0.396875 3.39062 0 4.39688 0 5.5V11.8125C0 14.0219 1.79063 15.8125 4 15.8125H12C14.2094 15.8125 16 14.0219 16 11.8125V5.5ZM12.1562 3.03125C13.75 3.03125 15.0312 4.3125 15.0312 5.90625C15.0312 7.5 13.75 8.78125 12.1562 8.78125C10.5625 8.78125 9.28125 7.5 9.28125 5.90625C9.28125 4.3125 10.5625 3.03125 12.1562 3.03125ZM4.46875 14.4375C2.85 14.4375 1.54375 13.1406 1.54375 11.5312C1.54375 9.92188 2.85 8.625 4.46875 8.625C6.0875 8.625 7.39375 9.92188 7.39375 11.5312C7.39375 13.1406 6.0875 14.4375 4.46875 14.4375ZM7.90625 9C7.44688 8.35938 6.71875 7.91875 5.875 7.77812C6.79688 7.2875 7.40625 6.36875 7.40625 5.3125C7.40625 3.69375 6.08125 2.375 4.4625 2.375C2.84375 2.375 1.51875 3.69375 1.51875 5.3125C1.51875 6.36875 2.1125 7.2875 3.04688 7.78125C2.20313 7.91875 1.45625 8.36562 1 9.00625C0.64375 8.275 0.4375 7.43125 0.4375 6.53125V6.1875C0.4375 3.85 2.34375 1.9375 4.6875 1.9375H11.3125C13.6562 1.9375 15.5625 3.85 15.5625 6.1875V6.53125C15.5625 7.43125 15.3531 8.275 15 9.00625C14.5375 8.36875 13.7906 7.91875 12.9437 7.78125C13.8875 7.2875 14.5 6.36875 14.5 5.3125C14.5 3.69375 13.175 2.375 11.5563 2.375C9.9375 2.375 8.6125 3.69375 8.6125 5.3125C8.6125 6.36875 9.21875 7.2875 10.1531 7.78125C9.30625 7.91875 8.56562 8.35938 8.10625 9H7.90625Z" fill="white"/>
                   </svg>
                   Opportunity Calculator
                 </button>
@@ -270,13 +262,14 @@ const Home: NextPage = () => {
                 color: 'rgba(255, 255, 255, 0.7)',
                 display: 'flex',
                 alignItems: 'center',
-                gap: '12px'
+                gap: '16px',
+                marginBottom: '20px'
               }}>
                 <span>8+ years experience with enterprise clients</span>
                 <div style={{ display: 'flex', gap: '8px' }}>
-                  <div style={{ width: '16px', height: '16px', background: 'rgba(255, 255, 255, 0.2)', borderRadius: '4px' }}></div>
-                  <div style={{ width: '16px', height: '16px', background: 'rgba(255, 255, 255, 0.2)', borderRadius: '4px' }}></div>
-                  <div style={{ width: '16px', height: '16px', background: 'rgba(255, 255, 255, 0.2)', borderRadius: '4px' }}></div>
+                  <div style={{ width: '16px', height: '16px', background: '#5F7EE8', borderRadius: '4px', opacity: 0.5 }}></div>
+                  <div style={{ width: '16px', height: '16px', background: '#9B55C6', borderRadius: '4px', opacity: 0.5 }}></div>
+                  <div style={{ width: '16px', height: '16px', background: '#4A8DFF', borderRadius: '4px', opacity: 0.5 }}></div>
                 </div>
               </div>
             </div>
@@ -536,11 +529,11 @@ const Home: NextPage = () => {
         {/* Trust indicators */}
         <section style={{ 
           backgroundColor: 'white',
-          padding: '20px 30px',
+          padding: '24px 40px',
           display: 'flex',
-          justifyContent: 'space-around',
+          justifyContent: 'center',
           flexWrap: 'wrap',
-          gap: '16px'
+          gap: '30px'
         }}>
           <div style={{ 
             display: 'flex',
@@ -556,7 +549,10 @@ const Home: NextPage = () => {
               width: '16px', 
               height: '16px', 
               borderRadius: '50%', 
-              backgroundColor: '#9CA3AF'
+              backgroundColor: '#5F7EE8',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
             }}></div>
             ISO 27001 Certified
           </div>
@@ -575,7 +571,10 @@ const Home: NextPage = () => {
               width: '16px', 
               height: '16px', 
               borderRadius: '50%', 
-              backgroundColor: '#9CA3AF'
+              backgroundColor: '#9B55C6',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
             }}></div>
             GDPR Compliant
           </div>
@@ -594,7 +593,10 @@ const Home: NextPage = () => {
               width: '16px', 
               height: '16px', 
               borderRadius: '50%', 
-              backgroundColor: '#9CA3AF'
+              backgroundColor: '#4A8DFF',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
             }}></div>
             Top CRM Consultant 2025
           </div>
@@ -613,7 +615,10 @@ const Home: NextPage = () => {
               width: '16px', 
               height: '16px', 
               borderRadius: '50%', 
-              backgroundColor: '#9CA3AF'
+              backgroundColor: '#5F7EE8',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
             }}></div>
             100+ Satisfied Clients
           </div>
