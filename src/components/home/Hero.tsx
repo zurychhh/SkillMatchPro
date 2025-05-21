@@ -61,9 +61,7 @@ const Hero = () => {
                   </svg>
                 </div>
                 <div className="ml-4">
-                  <p className="text-lg text-white">
-                    <span className="font-bold">42% reduction</span> in acquisition costs
-                  </p>
+                  <p className="text-lg text-white">42% reduction in acquisition costs</p>
                 </div>
               </div>
               
