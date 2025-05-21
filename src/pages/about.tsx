@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import { NextPage } from 'next';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
@@ -8,7 +9,7 @@ const AboutPage: NextPage = () => {
   const { recordVisit } = useAchievements();
 
   // Record about page visit for achievement tracking
-  React.useEffect(() => {
+  useEffect(() => {
     recordVisit('about');
   }, [recordVisit]);
 

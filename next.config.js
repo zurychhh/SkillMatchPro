@@ -61,10 +61,8 @@ const nextConfig = {
   publicRuntimeConfig: {
     apiBaseUrl: process.env.NEXT_PUBLIC_API_BASE_URL || '',
   },
-  // Use Next.js 15 compatible options
-  experimental: {
-    optimizeCss: true,
-  },
+  // Simplified experimental settings
+  experimental: {},
   // Linting and type checking during development only
   eslint: {
     ignoreDuringBuilds: true,
