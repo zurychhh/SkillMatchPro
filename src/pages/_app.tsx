@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { AppProps } from 'next/app';
-import { AchievementProvider } from '@/context/AchievementContext';
+import { AchievementProvider } from '@/context/AchievementContextPg';
 import '@/styles/globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
