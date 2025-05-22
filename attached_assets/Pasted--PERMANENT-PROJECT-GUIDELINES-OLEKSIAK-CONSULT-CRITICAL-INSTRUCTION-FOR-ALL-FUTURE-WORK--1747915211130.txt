@@ -1,0 +1,87 @@
+# PERMANENT PROJECT GUIDELINES - OLEKSIAK CONSULT
+
+## 🎯 CRITICAL INSTRUCTION FOR ALL FUTURE WORK
+
+**I'm attaching our established component library and brand guidelines. From now on, for ALL sections and modifications in this project, you MUST:**
+
+---
+
+## 📎 REFERENCE FILES
+
+**Attach these files to this message:**
+- `oleksiak-component-library.png` (UI components reference)
+- `oleksiak-brandbook.md` (brand specifications)
+
+---
+
+## 🚨 MANDATORY REQUIREMENTS FOR ALL FUTURE SECTIONS
+
+### **1. COMPONENT CONSISTENCY**
+- **ONLY use components shown in attached component library PNG**
+- Never create new component designs
+- Match exact visual specifications from the reference image
+- Maintain consistent styling patterns across all sections
+
+### **2. BRAND COMPLIANCE**
+- **Colors:** Use ONLY specified brand colors from brandbook
+- **Typography:** Follow exact font weights and sizes
+- **Spacing:** Apply consistent spacing system (8px, 16px, 24px, 32px, 40px)
+- **Shadows & Effects:** Use established shadow patterns
+
+### **3. ACHIEVEMENT SYSTEM INTEGRATION**
+- **Traveler:** Blue gradient (#3B82F6 → #1E40AF)
+- **Explorer:** Green gradient (#10B981 → #047857)  
+- **Conqueror:** Gold gradient (#F59E0B → #D97706)
+- Include achievement triggers in all interactive sections
+
+### **4. RESPONSIVE STANDARDS**
+- Mobile-first approach
+- Consistent breakpoints
+- Maintain component integrity across devices
+- Test all layouts on mobile, tablet, desktop
+
+---
+
+## 🔄 WORKFLOW FOR EVERY NEW SECTION
+
+**When I request new sections, automatically:**
+
+1. **Reference component library** - Identify which existing components to use
+2. **Apply brand colors** - Use exact hex codes from guidelines
+3. **Follow spacing system** - Maintain consistent measurements
+4. **Include gamification** - Add achievement elements where appropriate
+5. **Ensure responsiveness** - Test across device sizes
+
+---
+
+## 💬 RESPONSE PATTERN
+
+**For every new section request, start with:**
+"Using the attached component library and following brand guidelines, I'll implement [section name] with these established components: [list specific components from library]"
+
+**Always specify:**
+- Which components from library you're using
+- Exact colors being applied
+- Spacing measurements
+- Achievement integration points
+
+---
+
+## ⚠️ NON-NEGOTIABLE RULES
+
+- **NO custom component creation** - Only use library components
+- **NO color variations** - Stick to brandbook exactly
+- **NO spacing deviations** - Follow established measurements
+- **NO inconsistent patterns** - Maintain established design language
+
+---
+
+## 🎯 PROJECT CONTEXT
+
+**Current Status:** Hero section and Six Pillars section completed and approved
+**Next Sections:** All future sections must maintain same visual standards
+**Goal:** Consistent, professional CRM consulting website with integrated gamification
+
+---
+
+**IMPLEMENT THESE GUIDELINES IMMEDIATELY AND FOR ALL FUTURE WORK ON THIS PROJECT.**

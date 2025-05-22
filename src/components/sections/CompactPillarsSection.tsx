@@ -102,10 +102,10 @@ const ROISpecializationIcon = () => (
   </svg>
 );
 
-// SVG dla punktów
+// SVG dla punktów - dostosowany do kolorów brandbooka
 const BulletPoint = () => (
   <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="3" cy="3" r="3" fill="#9B55C6"/>
+    <circle cx="3" cy="3" r="3" fill="#6366F1"/> {/* Primary: #6366F1 (Indigo) */}
   </svg>
 );
 
@@ -189,7 +189,7 @@ interface CompactPillarCardProps {
   style?: React.CSSProperties;
 }
 
-// Kompaktowa karta pilarów - wersja pozioma
+// Kompaktowa karta pilarów - zgodna z biblioteką komponentów i brandbook
 const CompactPillarCard: React.FC<CompactPillarCardProps> = ({ title, icon, items, style = {} }) => {
   const { isMobile } = useResponsive();
   
@@ -198,10 +198,10 @@ const CompactPillarCard: React.FC<CompactPillarCardProps> = ({ title, icon, item
       width: '100%', 
       height: '120px',
       background: 'white',
-      boxShadow: '0px 1px 3px rgba(0, 0, 0, 0.1)',
-      borderRadius: 8,
-      border: '1px solid #F3F4F6',
-      padding: '16px',
+      boxShadow: '0 2px 8px rgba(0,0,0,0.1)', // Shadows wg brandbooka
+      borderRadius: '12px', // Border radius: 12px (cards) wg brandbooka
+      border: '1px solid #E2E8F0', // Subtelna obramówka zgodna z komponentami
+      padding: '16px', // Cards: 16px padding wg brandbooka
       display: 'flex',
       flexDirection: 'row',
       alignItems: 'center',
@@ -209,7 +209,7 @@ const CompactPillarCard: React.FC<CompactPillarCardProps> = ({ title, icon, item
     }}>
       {/* Icon */}
       <div style={{ 
-        marginRight: '16px',
+        marginRight: '16px', // Spacing system: 16px
         flexShrink: 0
       }}>
         {icon}
@@ -222,10 +222,10 @@ const CompactPillarCard: React.FC<CompactPillarCardProps> = ({ title, icon, item
         flex: 1
       }}>
         <div style={{ 
-          color: '#1F2937',
+          color: '#1E293B', // Background Dark z brandbooka, używane też jako główny kolor tekstu
           fontSize: '16px',
-          fontWeight: '600',
-          marginBottom: '8px'
+          fontWeight: '600', // Nagłówki kart, nie główne nagłówki
+          marginBottom: '8px' // Spacing system: 8px
         }}>
           {title}
         </div>
@@ -233,19 +233,19 @@ const CompactPillarCard: React.FC<CompactPillarCardProps> = ({ title, icon, item
         <div style={{
           display: 'flex',
           flexDirection: 'column',
-          gap: '4px'
+          gap: '4px' // Base unit: 4px wg brandbooka
         }}>
           {items.map((item: string, index: number) => (
             <div key={index} style={{
               display: 'flex',
               alignItems: 'center',
-              gap: '8px'
+              gap: '8px' // Spacing system: 8px
             }}>
               <BulletPoint />
               <div style={{
                 fontSize: '14px',
-                color: '#4B5563',
-                fontWeight: '400'
+                color: '#6B7280', // Text Gray wg brandbooka
+                fontWeight: '400' // Body text: 400-500 wg brandbooka
               }}>
                 {item}
               </div>
@@ -257,7 +257,7 @@ const CompactPillarCard: React.FC<CompactPillarCardProps> = ({ title, icon, item
   );
 };
 
-// Kompaktowa sekcja Pillars
+// Kompaktowa sekcja Pillars dostosowana do biblioteki komponentów i brandbooka
 const CompactPillarsSection = () => {
   const { isMobile, isTablet } = useResponsive();
   
@@ -267,36 +267,37 @@ const CompactPillarsSection = () => {
       padding: isMobile ? '40px 0' : '60px 0'
     }}>
       <Container>
-        {/* Header */}
+        {/* Header - zgodnie z wytycznymi brandbooka */}
         <div style={{
           textAlign: 'center',
-          marginBottom: '30px'
+          marginBottom: '32px' // Spacing system: 32px
         }}>
           <h2 style={{
             fontSize: isMobile ? '24px' : '30px',
-            fontWeight: '700',
-            color: '#1F2937',
-            marginBottom: '12px'
+            fontWeight: '700', // Headlines: 700 wg brandbooka
+            color: '#1E293B', // Background Dark wg brandbooka
+            marginBottom: '16px' // Spacing system: 16px
           }}>
             Six Pillars of CRM Success we bring to the table
           </h2>
           <p style={{
             fontSize: '16px',
             lineHeight: '1.5',
-            color: '#6B7280',
+            color: '#6B7280', // Text Gray wg brandbooka
             maxWidth: '800px',
-            margin: '0 auto'
+            margin: '0 auto',
+            fontWeight: '400' // Body text: 400-500 wg brandbooka
           }}>
             Our comprehensive technical approach integrates cutting-edge AI with proven CRM methodologies to deliver measurable business outcomes.
           </p>
         </div>
         
-        {/* Cards Grid */}
+        {/* Cards Grid - dostosowane do biblioteki komponentów */}
         <div style={{
           display: 'grid',
           gridTemplateColumns: isMobile ? '1fr' : isTablet ? 'repeat(2, 1fr)' : 'repeat(3, 1fr)',
-          gap: '20px',
-          marginBottom: '30px'
+          gap: '20px', // Grid gap: 20px standard wg brandbooka
+          marginBottom: '32px' // Spacing system: 32px
         }}>
           {compactPillarsData.map((pillar) => (
             <CompactPillarCard
@@ -308,22 +309,22 @@ const CompactPillarsSection = () => {
           ))}
         </div>
         
-        {/* CTA Button */}
+        {/* CTA Button z gradientem zgodnym z Achievement System */}
         <div style={{
           width: '100%',
-          marginTop: '30px'
+          marginTop: '32px' // Spacing system: 32px
         }}>
           <button style={{
             width: '100%',
-            padding: '16px',
-            background: 'linear-gradient(90deg, #6366F1 0%, #3B82F6 100%)',
-            color: 'white',
+            padding: '16px', // Buttons: 16px vertical padding
+            background: 'linear-gradient(90deg, #3B82F6, #1E40AF)', // Traveler gradient wg brandbooka
+            color: '#F8FAFC', // Text Light wg brandbooka
             fontSize: '16px',
-            fontWeight: '600',
+            fontWeight: '600', // CTA buttons: font-weight 600 wg brandbooka
             border: 'none',
-            borderRadius: '8px',
+            borderRadius: '8px', // Border radius: 8px (buttons) wg brandbooka
             cursor: 'pointer',
-            boxShadow: '0px 4px 6px rgba(99, 102, 241, 0.2)'
+            boxShadow: '0 2px 8px rgba(0,0,0,0.1)' // Shadows wg brandbooka
           }}>
             Join Our Community - Unlock achievements and exclusive resources
           </button>
