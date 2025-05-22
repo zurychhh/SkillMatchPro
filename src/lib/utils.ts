@@ -65,9 +65,10 @@ export function isEmptyObject(obj: object): boolean {
 
 /**
  * Format a number with commas for thousands
+ * Consistent format is used for both server and client rendering
  */
 export function formatNumber(num: number): string {
-  return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
 }
 
 /**
