@@ -2,7 +2,7 @@ import React from 'react';
 import { NextPage } from 'next';
 import Head from 'next/head';
 import NewOptimizedHero from '../components/layout/NewOptimizedHero';
-import PillarsSection from '../components/sections/PillarsSection';
+import CompactPillarsSection from '../components/sections/CompactPillarsSection';
 
 const Home: NextPage = () => {
   return (
@@ -127,8 +127,8 @@ const Home: NextPage = () => {
         {/* Hero Section - Finalna wersja zgodnie z wytycznymi */}
         <NewOptimizedHero />
         
-        {/* Pillars Section */}
-        <PillarsSection />
+        {/* Pillars Section - kompaktowa wersja */}
+        <CompactPillarsSection />
       </div>
     </>
   );
