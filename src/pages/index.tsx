@@ -1,7 +1,7 @@
 import React from 'react';
 import { NextPage } from 'next';
 import Head from 'next/head';
-import OptimizedHero from '../components/layout/OptimizedHero';
+import NewOptimizedHero from '../components/layout/NewOptimizedHero';
 import PillarsSection from '../components/sections/PillarsSection';
 
 const Home: NextPage = () => {
@@ -124,8 +124,8 @@ const Home: NextPage = () => {
           </div>
         </header>
 
-        {/* Hero Section - Zoptymalizowana wersja */}
-        <OptimizedHero />
+        {/* Hero Section - Finalna wersja zgodnie z wytycznymi */}
+        <NewOptimizedHero />
         
         {/* Pillars Section */}
         <PillarsSection />
