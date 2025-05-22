@@ -320,10 +320,10 @@ const NewOptimizedHero = () => {
               Get proven CRM strategies that reduce acquisition costs by 42% in 90 days.
             </div>
             
-            {/* CTA Buttons - poziomy layout zgodnie z biblioteką komponentów */}
+            {/* CTA Buttons - dokładnie jak w załączonym wzorze */}
             <div style={{ 
               display: 'flex', 
-              gap: '16px', // Spacing system: 16px
+              gap: '12px', // Zgodnie ze zrzutem ekranu
               marginBottom: '40px', // Spacing system: 40px
               justifyContent: 'flex-start',
               flexDirection: isMobile ? 'column' : 'row'
@@ -333,19 +333,20 @@ const NewOptimizedHero = () => {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                width: isMobile ? '100%' : '180px',
-                padding: '16px 24px', // Buttons: 16px vertical padding
-                background: 'linear-gradient(90deg, #6366F1, #4F46E5)', // Primary: #6366F1 (Indigo)
+                width: isMobile ? '100%' : 'auto',
+                padding: '12px 20px', // Zgodnie ze zrzutem ekranu
+                background: '#6366F1', // Primary: #6366F1 (Indigo) - bez gradientu
                 borderRadius: '8px', // Border radius: 8px (buttons)
                 color: '#F8FAFC', // Text Light
-                fontSize: '16px',
+                fontSize: '14px', // Mniejszy font zgodnie ze zrzutem
                 fontWeight: '600', // CTA buttons: font-weight 600
-                fontWeight: '600',
                 border: 'none',
-                boxShadow: '0 10px 25px rgba(99, 102, 241, 0.3)',
+                boxShadow: '0 2px 4px rgba(0,0,0,0.1)', // Subtelny cień zgodnie z brandbook
                 cursor: 'pointer'
               }}>
-                <div style={{ marginRight: '8px' }}>📊</div>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ marginRight: '8px' }}>
+                  <path d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z" fill="white"/>
+                </svg>
                 Opportunity Calculator
               </button>
               
@@ -354,17 +355,19 @@ const NewOptimizedHero = () => {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                width: isMobile ? '100%' : '140px',
-                padding: '14px 20px',
-                backgroundColor: 'transparent',
+                width: isMobile ? '100%' : 'auto',
+                padding: '12px 20px', // Zgodnie ze zrzutem ekranu
+                backgroundColor: 'rgba(99, 102, 241, 0.1)', // Półprzezroczysty kolor zgodny ze zrzutem
                 borderRadius: '8px',
                 color: '#6366F1',
-                fontSize: '16px',
-                fontWeight: '500',
-                border: '2px solid #6366F1',
+                fontSize: '14px', // Mniejszy font zgodnie ze zrzutem
+                fontWeight: '600',
+                border: 'none',
                 cursor: 'pointer'
               }}>
-                <div style={{ marginRight: '8px' }}>👥</div>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ marginRight: '8px' }}>
+                  <path d="M8 8C10.21 8 12 6.21 12 4C12 1.79 10.21 0 8 0C5.79 0 4 1.79 4 4C4 6.21 5.79 8 8 8ZM8 10C5.33 10 0 11.34 0 14V16H16V14C16 11.34 10.67 10 8 10Z" fill="#6366F1"/>
+                </svg>
                 Join Community
               </button>
               
@@ -373,18 +376,20 @@ const NewOptimizedHero = () => {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                width: isMobile ? '100%' : '120px',
-                padding: '14px 16px',
-                background: 'linear-gradient(135deg, #F59E0B, #D97706)',
+                width: isMobile ? '100%' : 'auto',
+                padding: '12px 20px', // Zgodnie ze zrzutem ekranu
+                background: '#F59E0B', // Amber accent z brandbook - bez gradientu
                 borderRadius: '8px',
                 color: 'white',
                 fontSize: '14px',
-                fontWeight: '500',
+                fontWeight: '600',
                 border: 'none',
                 cursor: 'pointer'
               }}>
-                <div style={{ marginRight: '8px' }}>📚</div>
-                Free Ebook
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ marginRight: '8px' }}>
+                  <path d="M14 0H4C2.9 0 2 0.9 2 2V14C2 15.1 2.9 16 4 16H14C15.1 16 16 15.1 16 14V2C16 0.9 15.1 0 14 0ZM14 14H4V2H14V14ZM0 4H2V6H0V4ZM0 8H2V10H0V8ZM0 12H2V14H0V12ZM6 4H12V6H6V4ZM6 8H12V10H6V8ZM6 12H10V14H6V12Z" fill="white"/>
+                </svg>
+                Free eBook
               </button>
             </div>
             
