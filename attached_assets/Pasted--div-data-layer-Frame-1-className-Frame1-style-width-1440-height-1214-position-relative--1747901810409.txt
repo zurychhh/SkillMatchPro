@@ -1,0 +1,379 @@
+<div data-layer="Frame 1" className="Frame1" style={{width: 1440, height: 1214, position: 'relative'}}>
+  <div data-layer="body" className="Body" style={{width: 1440, height: 1214, left: 0, top: 0, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+    <div data-layer="div" className="Div" style={{width: 1440, height: 1248, left: 0, top: 0, position: 'absolute', opacity: 0.10, background: 'rgba(0, 0, 0, 0)'}} />
+    <div data-layer="Our comprehensive approach to CRM implementation combines technical expertise with strategic vision to deliver measurable results for your business." className="OurComprehensiveApproachToCrmImplementationCombinesTechnicalExpertiseWithStrategicVisionToDeliverMeasurableResultsForYourBusiness" style={{width: 750, height: 21, left: 340.50, top: 219, position: 'absolute', textAlign: 'center', color: '#4B5563', fontSize: 18, fontFamily: 'Inter', fontWeight: '400', lineHeight: 18, wordWrap: 'break-word'}}>Our comprehensive approach to CRM implementation combines technical expertise with strategic vision to deliver measurable results for your business.</div>
+    <div data-layer="Six Pillars of CRM Success we bring to the table" className="SixPillarsOfCrmSuccessWeBringToTheTable" style={{width: 1104, height: 59, left: 168, top: 85, position: 'absolute', textAlign: 'center', color: '#1F2937', fontSize: 48, fontFamily: 'Inter', fontWeight: '700', lineHeight: 48, wordWrap: 'break-word'}}>Six Pillars of CRM Success we bring to the table</div>
+    <div data-layer="div" className="Div" style={{width: 362.66, height: 318, left: 144, top: 322, position: 'absolute', background: 'white', boxShadow: '0px 15px 30px rgba(155, 85, 198, 0.30)', borderRadius: 12, outline: '1px #F3F4F6 solid', outlineOffset: '-1px'}}>
+      <div data-layer="div" className="Div" style={{width: 312.66, height: 64, left: 25, top: 25, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+        <div data-layer="div" className="Div" style={{width: 64, height: 64, left: 0, top: 0, position: 'absolute', background: 'linear-gradient(90deg, #9B55C6 0%, #4A8DFF 100%)', borderRadius: 8}}>
+          <div data-layer="Frame" className="Frame" style={{width: 30, height: 24, left: 17, top: 20, position: 'absolute', overflow: 'hidden', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+            <div data-svg-wrapper data-layer="Frame" className="Frame" style={{position: 'relative'}}>
+              <svg width="30" height="24" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_9_94)">
+              <path d="M18.4125 0.0562542C17.6156 -0.173433 16.7859 0.290629 16.5563 1.0875L10.5563 22.0875C10.3266 22.8844 10.7906 23.7141 11.5875 23.9438C12.3844 24.1734 13.2141 23.7094 13.4438 22.9125L19.4438 1.9125C19.6734 1.11563 19.2094 0.285942 18.4125 0.0562542ZM22.1906 5.68594C21.6047 6.27188 21.6047 7.22344 22.1906 7.80938L26.3766 12L22.1859 16.1906C21.6 16.7766 21.6 17.7281 22.1859 18.3141C22.7719 18.9 23.7234 18.9 24.3094 18.3141L29.5594 13.0641C30.1453 12.4781 30.1453 11.5266 29.5594 10.9406L24.3094 5.69063C23.7234 5.10469 22.7719 5.10469 22.1859 5.69063L22.1906 5.68594ZM7.81407 5.68594C7.22813 5.1 6.27657 5.1 5.69063 5.68594L0.440628 10.9359C-0.145309 11.5219 -0.145309 12.4734 0.440628 13.0594L5.69063 18.3094C6.27657 18.8953 7.22813 18.8953 7.81407 18.3094C8.4 17.7234 8.4 16.7719 7.81407 16.1859L3.62344 12L7.81407 7.80938C8.4 7.22344 8.4 6.27188 7.81407 5.68594Z" fill="white"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_9_94">
+              <path d="M0 0H30V24H0V0Z" fill="white"/>
+              </clipPath>
+              </defs>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div data-layer="Technical Mastery" className="TechnicalMastery" style={{width: 175, height: 24, left: 80, top: 20, position: 'absolute', color: '#1F2937', fontSize: 20, fontFamily: 'Inter', fontWeight: '500', lineHeight: 20, wordWrap: 'break-word'}}>Technical Mastery</div>
+      </div>
+      <div data-layer="ul" className="Ul" style={{width: 312.66, height: 180, left: 25, top: 113, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+        <div data-layer="li" className="Li" style={{width: 312.66, height: 48, left: 0, top: 0, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+          <div data-svg-wrapper data-layer="div" className="Div" style={{left: 0, top: 4, position: 'absolute'}}>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0Z" fill="#9B55C6"/>
+            <path d="M8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0Z" stroke="#E5E7EB"/>
+            </svg>
+          </div>
+          <div data-layer="Seamless platform integration across your tech stack" className="SeamlessPlatformIntegrationAcrossYourTechStack" style={{width: 281, height: 20, left: 28, top: 6, position: 'absolute', color: '#1F2937', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', lineHeight: 16, wordWrap: 'break-word'}}>Seamless platform integration across your tech stack</div>
+        </div>
+        <div data-layer="li" className="Li" style={{width: 312.66, height: 48, left: 0, top: 60, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+          <div data-svg-wrapper data-layer="div" className="Div" style={{left: 0, top: 4, position: 'absolute'}}>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0Z" fill="#9B55C6"/>
+            <path d="M8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0Z" stroke="#E5E7EB"/>
+            </svg>
+          </div>
+          <div data-layer="Custom API connections for data synchronization" className="CustomApiConnectionsForDataSynchronization" style={{width: 249, height: 20, left: 28, top: 6, position: 'absolute', color: '#1F2937', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', lineHeight: 16, wordWrap: 'break-word'}}>Custom API connections for data synchronization</div>
+        </div>
+        <div data-layer="li" className="Li" style={{width: 312.66, height: 24, left: 0, top: 120, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+          <div data-svg-wrapper data-layer="div" className="Div" style={{left: 0, top: 4, position: 'absolute'}}>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0Z" fill="#9B55C6"/>
+            <path d="M8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0Z" stroke="#E5E7EB"/>
+            </svg>
+          </div>
+          <div data-layer="Automated workflow implementation" className="AutomatedWorkflowImplementation" style={{width: 278, height: 20, left: 28, top: 2, position: 'absolute', color: '#1F2937', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', lineHeight: 16, wordWrap: 'break-word'}}>Automated workflow implementation</div>
+        </div>
+        <div data-layer="li" className="Li" style={{width: 312.66, height: 24, left: 0, top: 156, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+          <div data-svg-wrapper data-layer="div" className="Div" style={{left: 0, top: 4, position: 'absolute'}}>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0Z" fill="#9B55C6"/>
+            <path d="M8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0Z" stroke="#E5E7EB"/>
+            </svg>
+          </div>
+          <div data-layer="Technical debt reduction strategies" className="TechnicalDebtReductionStrategies" style={{width: 268, height: 20, left: 28, top: 2, position: 'absolute', color: '#1F2937', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', lineHeight: 16, wordWrap: 'break-word'}}>Technical debt reduction strategies</div>
+        </div>
+      </div>
+    </div>
+    <div data-layer="div" className="Div" style={{width: 362.67, height: 318, left: 538.66, top: 322, position: 'absolute', background: 'white', boxShadow: '0px 15px 30px rgba(155, 85, 198, 0.30)', borderRadius: 12, outline: '1px #F3F4F6 solid', outlineOffset: '-1px'}}>
+      <div data-layer="div" className="Div" style={{width: 312.67, height: 64, left: 25, top: 25, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+        <div data-layer="div" className="Div" style={{width: 64, height: 64, left: 0, top: 0, position: 'absolute', background: 'linear-gradient(90deg, #9B55C6 0%, #4A8DFF 100%)', borderRadius: 8}}>
+          <div data-layer="Frame" className="Frame" style={{width: 24, height: 24, left: 20, top: 20, position: 'absolute', overflow: 'hidden', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+            <div data-svg-wrapper data-layer="Frame" className="Frame" style={{position: 'relative'}}>
+              <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_9_111)">
+              <path d="M7.40625 0.75C7.40625 0.3375 7.06875 0 6.65625 0C6.24375 0 5.90625 0.3375 5.90625 0.75V1.5H5.15625C4.74375 1.5 4.40625 1.8375 4.40625 2.25C4.40625 2.6625 4.74375 3 5.15625 3H5.90625V4.5H3.47813C2.95781 4.5 2.53125 4.92656 2.53125 5.44687C2.53125 5.56406 2.55469 5.67656 2.59219 5.78906L4.11563 9.75H4.03125C3.40781 9.75 2.90625 10.2516 2.90625 10.875C2.90625 11.4984 3.40781 12 4.03125 12H4.21875L3.46875 18H9.84375L9.09375 12H9.28125C9.90469 12 10.4062 11.4984 10.4062 10.875C10.4062 10.2516 9.90469 9.75 9.28125 9.75H9.19687L10.7203 5.78906C10.7625 5.68125 10.7812 5.56406 10.7812 5.44687C10.7812 4.92187 10.3547 4.5 9.83438 4.5H7.40625V3H8.15625C8.56875 3 8.90625 2.6625 8.90625 2.25C8.90625 1.8375 8.56875 1.5 8.15625 1.5H7.40625V0.75ZM2.90625 19.5L0.88125 22.2C0.735938 22.3969 0.65625 22.6313 0.65625 22.875C0.65625 23.4984 1.15781 24 1.78125 24H11.5312C12.1547 24 12.6562 23.4984 12.6562 22.875C12.6562 22.6313 12.5766 22.3969 12.4312 22.2L10.4062 19.5H2.90625ZM16.4062 19.5L14.3812 22.2C14.2359 22.3969 14.1562 22.6313 14.1562 22.875C14.1562 23.4984 14.6578 24 15.2812 24H23.5312C24.1547 24 24.6562 23.4984 24.6562 22.875C24.6562 22.6313 24.5766 22.3969 24.4313 22.2L22.4062 19.5H16.4062ZM14.9062 9.75V12.1828C14.9062 12.5484 15.0375 12.9 15.2812 13.1719L16.5563 14.625L16.4531 18H22.3359L22.1813 14.625L23.5078 13.1813C23.7609 12.9047 23.9062 12.5438 23.9062 12.1641V9.75C23.9062 9.3375 23.5688 9 23.1562 9H22.4062C21.9937 9 21.6562 9.3375 21.6562 9.75V10.5H20.5312V9.75C20.5312 9.3375 20.1938 9 19.7812 9H19.0312C18.6187 9 18.2812 9.3375 18.2812 9.75V10.5H17.1562V9.75C17.1562 9.3375 16.8188 9 16.4062 9H15.6562C15.2437 9 14.9062 9.3375 14.9062 9.75ZM18.6562 14.25C18.6562 13.8375 18.9937 13.5 19.4062 13.5C19.8188 13.5 20.1562 13.8375 20.1562 14.25V15.75H18.6562V14.25Z" fill="white"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_9_111">
+              <path d="M0.65625 0H24.6562V24H0.65625V0Z" fill="white"/>
+              </clipPath>
+              </defs>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div data-layer="Business Strategy" className="BusinessStrategy" style={{width: 174, height: 24, left: 80, top: 20, position: 'absolute', color: '#1F2937', fontSize: 20, fontFamily: 'Inter', fontWeight: '500', lineHeight: 20, wordWrap: 'break-word'}}>Business Strategy</div>
+      </div>
+      <div data-layer="ul" className="Ul" style={{width: 312.67, height: 156, left: 25, top: 113, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+        <div data-layer="li" className="Li" style={{width: 312.67, height: 48, left: 0, top: 0, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+          <div data-svg-wrapper data-layer="div" className="Div" style={{left: 0, top: 4, position: 'absolute'}}>
+            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.65625 0C13.0745 0 16.6562 3.58172 16.6562 8C16.6562 12.4183 13.0745 16 8.65625 16C4.23797 16 0.65625 12.4183 0.65625 8C0.65625 3.58172 4.23797 0 8.65625 0Z" fill="#9B55C6"/>
+            <path d="M8.65625 0C13.0745 0 16.6562 3.58172 16.6562 8C16.6562 12.4183 13.0745 16 8.65625 16C4.23797 16 0.65625 12.4183 0.65625 8C0.65625 3.58172 4.23797 0 8.65625 0Z" stroke="#E5E7EB"/>
+            </svg>
+          </div>
+          <div data-layer="ROI-focused implementation approach" className="RoiFocusedImplementationApproach" style={{width: 216, height: 20, left: 28, top: 6, position: 'absolute', color: '#1F2937', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', lineHeight: 16, wordWrap: 'break-word'}}>ROI-focused implementation approach</div>
+        </div>
+        <div data-layer="li" className="Li" style={{width: 312.67, height: 24, left: 0, top: 60, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+          <div data-svg-wrapper data-layer="div" className="Div" style={{left: 0, top: 4, position: 'absolute'}}>
+            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.65625 0C13.0745 0 16.6562 3.58172 16.6562 8C16.6562 12.4183 13.0745 16 8.65625 16C4.23797 16 0.65625 12.4183 0.65625 8C0.65625 3.58172 4.23797 0 8.65625 0Z" fill="#9B55C6"/>
+            <path d="M8.65625 0C13.0745 0 16.6562 3.58172 16.6562 8C16.6562 12.4183 13.0745 16 8.65625 16C4.23797 16 0.65625 12.4183 0.65625 8C0.65625 3.58172 4.23797 0 8.65625 0Z" stroke="#E5E7EB"/>
+            </svg>
+          </div>
+          <div data-layer="Customer journey optimization" className="CustomerJourneyOptimization" style={{width: 232, height: 20, left: 28, top: 2, position: 'absolute', color: '#1F2937', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', lineHeight: 16, wordWrap: 'break-word'}}>Customer journey optimization</div>
+        </div>
+        <div data-layer="li" className="Li" style={{width: 312.67, height: 24, left: 0, top: 96, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+          <div data-svg-wrapper data-layer="div" className="Div" style={{left: 0, top: 4, position: 'absolute'}}>
+            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.65625 0C13.0745 0 16.6562 3.58172 16.6562 8C16.6562 12.4183 13.0745 16 8.65625 16C4.23797 16 0.65625 12.4183 0.65625 8C0.65625 3.58172 4.23797 0 8.65625 0Z" fill="#9B55C6"/>
+            <path d="M8.65625 0C13.0745 0 16.6562 3.58172 16.6562 8C16.6562 12.4183 13.0745 16 8.65625 16C4.23797 16 0.65625 12.4183 0.65625 8C0.65625 3.58172 4.23797 0 8.65625 0Z" stroke="#E5E7EB"/>
+            </svg>
+          </div>
+          <div data-layer="Strategic resource allocation" className="StrategicResourceAllocation" style={{width: 217, height: 20, left: 28, top: 2, position: 'absolute', color: '#1F2937', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', lineHeight: 16, wordWrap: 'break-word'}}>Strategic resource allocation</div>
+        </div>
+        <div data-layer="li" className="Li" style={{width: 312.67, height: 24, left: 0, top: 132, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+          <div data-svg-wrapper data-layer="div" className="Div" style={{left: 0, top: 4, position: 'absolute'}}>
+            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.65625 0C13.0745 0 16.6562 3.58172 16.6562 8C16.6562 12.4183 13.0745 16 8.65625 16C4.23797 16 0.65625 12.4183 0.65625 8C0.65625 3.58172 4.23797 0 8.65625 0Z" fill="#9B55C6"/>
+            <path d="M8.65625 0C13.0745 0 16.6562 3.58172 16.6562 8C16.6562 12.4183 13.0745 16 8.65625 16C4.23797 16 0.65625 12.4183 0.65625 8C0.65625 3.58172 4.23797 0 8.65625 0Z" stroke="#E5E7EB"/>
+            </svg>
+          </div>
+          <div data-layer="Competitive advantage positioning" className="CompetitiveAdvantagePositioning" style={{width: 264, height: 20, left: 28, top: 2, position: 'absolute', color: '#1F2937', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', lineHeight: 16, wordWrap: 'break-word'}}>Competitive advantage positioning</div>
+        </div>
+      </div>
+    </div>
+    <div data-layer="div" className="Div" style={{width: 362.66, height: 318, left: 933.33, top: 322, position: 'absolute', background: 'white', boxShadow: '0px 15px 30px rgba(155, 85, 198, 0.30)', borderRadius: 12, outline: '1px #F3F4F6 solid', outlineOffset: '-1px'}}>
+      <div data-layer="div" className="Div" style={{width: 312.66, height: 64, left: 25, top: 25, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+        <div data-layer="div" className="Div" style={{width: 64, height: 64, left: 0, top: 0, position: 'absolute', background: 'linear-gradient(90deg, #9B55C6 0%, #4A8DFF 100%)', borderRadius: 8}}>
+          <div data-layer="Frame" className="Frame" style={{width: 27, height: 24, left: 18.50, top: 20, position: 'absolute', overflow: 'hidden', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+            <div data-svg-wrapper data-layer="Frame" className="Frame" style={{position: 'relative'}}>
+              <svg width="28" height="24" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_9_127)">
+              <path d="M15.0781 11.25V0.778125C15.0781 0.35625 15.4062 0 15.8281 0C21.6266 0 26.3281 4.70156 26.3281 10.5C26.3281 10.9219 25.9719 11.25 25.55 11.25H15.0781ZM2.32812 12.75C2.32812 7.06406 6.55156 2.35781 12.0312 1.60781C12.4625 1.54687 12.8281 1.89375 12.8281 2.32969V13.5L20.1641 20.8359C20.4781 21.15 20.4547 21.6656 20.0938 21.9188C18.2562 23.2313 16.0062 24 13.5781 24C7.36719 24 2.32812 18.9656 2.32812 12.75ZM27.0031 13.5C27.4391 13.5 27.7812 13.8656 27.725 14.2969C27.3641 16.9172 26.1031 19.2469 24.2609 20.9672C23.9797 21.2297 23.5391 21.2109 23.2672 20.9344L15.8281 13.5H27.0031Z" fill="white"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_9_127">
+              <path d="M0.828125 0H27.8281V24H0.828125V0Z" fill="white"/>
+              </clipPath>
+              </defs>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div data-layer="Data Management" className="DataManagement" style={{width: 176, height: 24, left: 80, top: 20, position: 'absolute', color: '#1F2937', fontSize: 20, fontFamily: 'Inter', fontWeight: '500', lineHeight: 20, wordWrap: 'break-word'}}>Data Management</div>
+      </div>
+      <div data-layer="ul" className="Ul" style={{width: 312.66, height: 156, left: 25, top: 113, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+        <div data-layer="li" className="Li" style={{width: 312.66, height: 48, left: 0, top: 0, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+          <div data-svg-wrapper data-layer="div" className="Div" style={{left: 0, top: 4, position: 'absolute'}}>
+            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.32812 0C12.7464 0 16.3281 3.58172 16.3281 8C16.3281 12.4183 12.7464 16 8.32812 16C3.90985 16 0.328125 12.4183 0.328125 8C0.328125 3.58172 3.90985 0 8.32812 0Z" fill="#9B55C6"/>
+            <path d="M8.32812 0C12.7464 0 16.3281 3.58172 16.3281 8C16.3281 12.4183 12.7464 16 8.32812 16C3.90985 16 0.328125 12.4183 0.328125 8C0.328125 3.58172 3.90985 0 8.32812 0Z" stroke="#E5E7EB"/>
+            </svg>
+          </div>
+          <div data-layer="Custom KPI frameworks for actionable insights" className="CustomKpiFrameworksForActionableInsights" style={{width: 207, height: 20, left: 28, top: 6, position: 'absolute', color: '#1F2937', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', lineHeight: 16, wordWrap: 'break-word'}}>Custom KPI frameworks for actionable insights</div>
+        </div>
+        <div data-layer="li" className="Li" style={{width: 312.66, height: 24, left: 0, top: 60, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+          <div data-svg-wrapper data-layer="div" className="Div" style={{left: 0, top: 4, position: 'absolute'}}>
+            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.32812 0C12.7464 0 16.3281 3.58172 16.3281 8C16.3281 12.4183 12.7464 16 8.32812 16C3.90985 16 0.328125 12.4183 0.328125 8C0.328125 3.58172 3.90985 0 8.32812 0Z" fill="#9B55C6"/>
+            <path d="M8.32812 0C12.7464 0 16.3281 3.58172 16.3281 8C16.3281 12.4183 12.7464 16 8.32812 16C3.90985 16 0.328125 12.4183 0.328125 8C0.328125 3.58172 3.90985 0 8.32812 0Z" stroke="#E5E7EB"/>
+            </svg>
+          </div>
+          <div data-layer="Real-time dashboard implementation" className="RealTimeDashboardImplementation" style={{width: 279, height: 20, left: 28, top: 2, position: 'absolute', color: '#1F2937', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', lineHeight: 16, wordWrap: 'break-word'}}>Real-time dashboard implementation</div>
+        </div>
+        <div data-layer="li" className="Li" style={{width: 312.66, height: 24, left: 0, top: 96, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+          <div data-svg-wrapper data-layer="div" className="Div" style={{left: 0, top: 4, position: 'absolute'}}>
+            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.32812 0C12.7464 0 16.3281 3.58172 16.3281 8C16.3281 12.4183 12.7464 16 8.32812 16C3.90985 16 0.328125 12.4183 0.328125 8C0.328125 3.58172 3.90985 0 8.32812 0Z" fill="#9B55C6"/>
+            <path d="M8.32812 0C12.7464 0 16.3281 3.58172 16.3281 8C16.3281 12.4183 12.7464 16 8.32812 16C3.90985 16 0.328125 12.4183 0.328125 8C0.328125 3.58172 3.90985 0 8.32812 0Z" stroke="#E5E7EB"/>
+            </svg>
+          </div>
+          <div data-layer="Data cleansing and enrichment" className="DataCleansingAndEnrichment" style={{width: 235, height: 20, left: 28, top: 2, position: 'absolute', color: '#1F2937', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', lineHeight: 16, wordWrap: 'break-word'}}>Data cleansing and enrichment</div>
+        </div>
+        <div data-layer="li" className="Li" style={{width: 312.66, height: 24, left: 0, top: 132, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+          <div data-svg-wrapper data-layer="div" className="Div" style={{left: 0, top: 4, position: 'absolute'}}>
+            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.32812 0C12.7464 0 16.3281 3.58172 16.3281 8C16.3281 12.4183 12.7464 16 8.32812 16C3.90985 16 0.328125 12.4183 0.328125 8C0.328125 3.58172 3.90985 0 8.32812 0Z" fill="#9B55C6"/>
+            <path d="M8.32812 0C12.7464 0 16.3281 3.58172 16.3281 8C16.3281 12.4183 12.7464 16 8.32812 16C3.90985 16 0.328125 12.4183 0.328125 8C0.328125 3.58172 3.90985 0 8.32812 0Z" stroke="#E5E7EB"/>
+            </svg>
+          </div>
+          <div data-layer="Predictive analytics implementation" className="PredictiveAnalyticsImplementation" style={{width: 268, height: 20, left: 28, top: 2, position: 'absolute', color: '#1F2937', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', lineHeight: 16, wordWrap: 'break-word'}}>Predictive analytics implementation</div>
+        </div>
+      </div>
+    </div>
+    <div data-layer="div" className="Div" style={{width: 362.66, height: 342, left: 144, top: 672, position: 'absolute', background: 'white', boxShadow: '0px 15px 30px rgba(155, 85, 198, 0.30)', borderRadius: 12, outline: '1px #F3F4F6 solid', outlineOffset: '-1px'}}>
+      <div data-layer="div" className="Div" style={{width: 312.66, height: 64, left: 25, top: 25, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+        <div data-layer="div" className="Div" style={{width: 64, height: 64, left: 0, top: 0, position: 'absolute', background: 'linear-gradient(90deg, #9B55C6 0%, #4A8DFF 100%)', borderRadius: 8}}>
+          <div data-layer="Frame" className="Frame" style={{width: 24, height: 24, left: 20, top: 20, position: 'absolute', overflow: 'hidden', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+            <div data-svg-wrapper data-layer="Frame" className="Frame" style={{position: 'relative'}}>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_9_143)">
+              <path d="M22.5 1.49998C22.5 0.895297 22.1344 0.34686 21.5719 0.112485C21.0094 -0.12189 20.3672 0.00936 19.9359 0.435923L17.8922 2.48436C15.6422 4.73436 12.5906 5.99998 9.40781 5.99998H9H7.5H3C1.34531 5.99998 0 7.3453 0 8.99998V13.5C0 15.1547 1.34531 16.5 3 16.5V22.5C3 23.3297 3.67031 24 4.5 24H7.5C8.32969 24 9 23.3297 9 22.5V16.5H9.40781C12.5906 16.5 15.6422 17.7656 17.8922 20.0156L19.9359 22.0594C20.3672 22.4906 21.0094 22.6172 21.5719 22.3828C22.1344 22.1484 22.5 21.6047 22.5 20.9953V14.0812C23.3719 13.6687 24 12.5578 24 11.25C24 9.94217 23.3719 8.83124 22.5 8.41874V1.49998ZM19.5 5.0953V11.25V17.4047C16.7438 14.8969 13.1484 13.5 9.40781 13.5H9V8.99998H9.40781C13.1484 8.99998 16.7438 7.60311 19.5 5.0953Z" fill="white"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_9_143">
+              <path d="M0 0H24V24H0V0Z" fill="white"/>
+              </clipPath>
+              </defs>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div data-layer="Campaign Execution" className="CampaignExecution" style={{width: 197, height: 24, left: 80, top: 20, position: 'absolute', color: '#1F2937', fontSize: 20, fontFamily: 'Inter', fontWeight: '500', lineHeight: 20, wordWrap: 'break-word'}}>Campaign Execution</div>
+      </div>
+      <div data-layer="ul" className="Ul" style={{width: 312.66, height: 204, left: 25, top: 113, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+        <div data-layer="li" className="Li" style={{width: 312.66, height: 48, left: 0, top: 0, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+          <div data-svg-wrapper data-layer="div" className="Div" style={{left: 0, top: 4, position: 'absolute'}}>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0Z" fill="#9B55C6"/>
+            <path d="M8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0Z" stroke="#E5E7EB"/>
+            </svg>
+          </div>
+          <div data-layer="150+ tested tactics for customer acquisition" className="TestedTacticsForCustomerAcquisition" style={{width: 249, height: 20, left: 28, top: 6, position: 'absolute'}}><span style="color: '#1F2937', fontSize: 16, fontFamily: 'Inter', fontWeight: '500', lineHeight: 16, wordWrap: 'break-word'">150+ tested tactics</span><span style="color: '#1F2937', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', lineHeight: 16, wordWrap: 'break-word'"> for customer acquisition</span></div>
+        </div>
+        <div data-layer="li" className="Li" style={{width: 312.66, height: 48, left: 0, top: 60, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+          <div data-svg-wrapper data-layer="div" className="Div" style={{left: 0, top: 4, position: 'absolute'}}>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0Z" fill="#9B55C6"/>
+            <path d="M8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0Z" stroke="#E5E7EB"/>
+            </svg>
+          </div>
+          <div data-layer="Multi-channel campaign orchestration" className="MultiChannelCampaignOrchestration" style={{width: 182, height: 20, left: 28, top: 6, position: 'absolute', color: '#1F2937', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', lineHeight: 16, wordWrap: 'break-word'}}>Multi-channel campaign orchestration</div>
+        </div>
+        <div data-layer="li" className="Li" style={{width: 312.66, height: 48, left: 0, top: 120, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+          <div data-svg-wrapper data-layer="div" className="Div" style={{left: 0, top: 4, position: 'absolute'}}>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0Z" fill="#9B55C6"/>
+            <path d="M8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0Z" stroke="#E5E7EB"/>
+            </svg>
+          </div>
+          <div data-layer="Personalization at scale implementation" className="PersonalizationAtScaleImplementation" style={{width: 179, height: 20, left: 28, top: 6, position: 'absolute', color: '#1F2937', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', lineHeight: 16, wordWrap: 'break-word'}}>Personalization at scale implementation</div>
+        </div>
+        <div data-layer="li" className="Li" style={{width: 312.66, height: 24, left: 0, top: 180, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+          <div data-svg-wrapper data-layer="div" className="Div" style={{left: 0, top: 4, position: 'absolute'}}>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0Z" fill="#9B55C6"/>
+            <path d="M8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0Z" stroke="#E5E7EB"/>
+            </svg>
+          </div>
+          <div data-layer="A/B testing frameworks" className="ABTestingFrameworks" style={{width: 178, height: 20, left: 28, top: 2, position: 'absolute', color: '#1F2937', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', lineHeight: 16, wordWrap: 'break-word'}}>A/B testing frameworks</div>
+        </div>
+      </div>
+    </div>
+    <div data-layer="div" className="Div" style={{width: 362.67, height: 342, left: 538.66, top: 672, position: 'absolute', background: 'white', boxShadow: '0px 15px 30px rgba(155, 85, 198, 0.30)', borderRadius: 12, outline: '1px #F3F4F6 solid', outlineOffset: '-1px'}}>
+      <div data-layer="div" className="Div" style={{width: 312.67, height: 64, left: 25, top: 25, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+        <div data-layer="div" className="Div" style={{width: 64, height: 64, left: 0, top: 0, position: 'absolute', background: 'linear-gradient(90deg, #9B55C6 0%, #4A8DFF 100%)', borderRadius: 8}}>
+          <div data-layer="Frame" className="Frame" style={{width: 24, height: 24, left: 20, top: 20, position: 'absolute', overflow: 'hidden', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+            <div data-svg-wrapper data-layer="Frame" className="Frame" style={{position: 'relative'}}>
+              <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_9_162)">
+              <path d="M7.78596 1.79064C8.25002 2.20783 8.28752 2.91564 7.87034 3.3797L4.49534 7.1297C4.28909 7.35939 3.99846 7.49533 3.68909 7.50002C3.37971 7.5047 3.0844 7.38752 2.86409 7.17189L0.984399 5.29689C0.548462 4.85627 0.548462 4.14377 0.984399 3.70314C1.42034 3.26252 2.13752 3.26252 2.57346 3.70314L3.6094 4.73908L6.19221 1.87033C6.6094 1.40627 7.31721 1.36877 7.78127 1.78595L7.78596 1.79064ZM7.78596 9.29064C8.25002 9.70783 8.28752 10.4156 7.87034 10.8797L4.49534 14.6297C4.28909 14.8594 3.99846 14.9953 3.68909 15C3.37971 15.0047 3.0844 14.8875 2.86409 14.6719L0.984399 12.7969C0.543774 12.3563 0.543774 11.6438 0.984399 11.2078C1.42502 10.7719 2.13752 10.7672 2.57346 11.2078L3.6094 12.2438L6.19221 9.37502C6.6094 8.91095 7.31721 8.87345 7.78127 9.29064H7.78596ZM11.1563 4.50002C11.1563 3.67033 11.8266 3.00002 12.6563 3.00002H23.1563C23.986 3.00002 24.6563 3.67033 24.6563 4.50002C24.6563 5.3297 23.986 6.00002 23.1563 6.00002H12.6563C11.8266 6.00002 11.1563 5.3297 11.1563 4.50002ZM11.1563 12C11.1563 11.1703 11.8266 10.5 12.6563 10.5H23.1563C23.986 10.5 24.6563 11.1703 24.6563 12C24.6563 12.8297 23.986 13.5 23.1563 13.5H12.6563C11.8266 13.5 11.1563 12.8297 11.1563 12ZM8.15627 19.5C8.15627 18.6703 8.82659 18 9.65627 18H23.1563C23.986 18 24.6563 18.6703 24.6563 19.5C24.6563 20.3297 23.986 21 23.1563 21H9.65627C8.82659 21 8.15627 20.3297 8.15627 19.5ZM2.90627 17.25C3.50301 17.25 4.07531 17.4871 4.49726 17.909C4.91922 18.331 5.15627 18.9033 5.15627 19.5C5.15627 20.0968 4.91922 20.669 4.49726 21.091C4.07531 21.513 3.50301 21.75 2.90627 21.75C2.30954 21.75 1.73724 21.513 1.31528 21.091C0.893327 20.669 0.656274 20.0968 0.656274 19.5C0.656274 18.9033 0.893327 18.331 1.31528 17.909C1.73724 17.4871 2.30954 17.25 2.90627 17.25Z" fill="white"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_9_162">
+              <path d="M0.65625 0H24.6562V24H0.65625V0Z" fill="white"/>
+              </clipPath>
+              </defs>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div data-layer="Project Implementation" className="ProjectImplementation" style={{width: 222, height: 24, left: 80, top: 20, position: 'absolute', color: '#1F2937', fontSize: 20, fontFamily: 'Inter', fontWeight: '500', lineHeight: 20, wordWrap: 'break-word'}}>Project Implementation</div>
+      </div>
+      <div data-layer="ul" className="Ul" style={{width: 312.67, height: 180, left: 25, top: 113, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+        <div data-layer="li" className="Li" style={{width: 312.67, height: 48, left: 0, top: 0, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+          <div data-svg-wrapper data-layer="div" className="Div" style={{left: 0, top: 4, position: 'absolute'}}>
+            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.65625 0C13.0745 0 16.6562 3.58172 16.6562 8C16.6562 12.4183 13.0745 16 8.65625 16C4.23797 16 0.65625 12.4183 0.65625 8C0.65625 3.58172 4.23797 0 8.65625 0Z" fill="#9B55C6"/>
+            <path d="M8.65625 0C13.0745 0 16.6562 3.58172 16.6562 8C16.6562 12.4183 13.0745 16 8.65625 16C4.23797 16 0.65625 12.4183 0.65625 8C0.65625 3.58172 4.23797 0 8.65625 0Z" stroke="#E5E7EB"/>
+            </svg>
+          </div>
+          <div data-layer="Agile methodologies for rapid deployment" className="AgileMethodologiesForRapidDeployment" style={{width: 223, height: 20, left: 28, top: 6, position: 'absolute', color: '#1F2937', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', lineHeight: 16, wordWrap: 'break-word'}}>Agile methodologies for rapid deployment</div>
+        </div>
+        <div data-layer="li" className="Li" style={{width: 312.67, height: 24, left: 0, top: 60, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+          <div data-svg-wrapper data-layer="div" className="Div" style={{left: 0, top: 4, position: 'absolute'}}>
+            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.65625 0C13.0745 0 16.6562 3.58172 16.6562 8C16.6562 12.4183 13.0745 16 8.65625 16C4.23797 16 0.65625 12.4183 0.65625 8C0.65625 3.58172 4.23797 0 8.65625 0Z" fill="#9B55C6"/>
+            <path d="M8.65625 0C13.0745 0 16.6562 3.58172 16.6562 8C16.6562 12.4183 13.0745 16 8.65625 16C4.23797 16 0.65625 12.4183 0.65625 8C0.65625 3.58172 4.23797 0 8.65625 0Z" stroke="#E5E7EB"/>
+            </svg>
+          </div>
+          <div data-layer="Risk mitigation strategies" className="RiskMitigationStrategies" style={{width: 191, height: 20, left: 28, top: 2, position: 'absolute', color: '#1F2937', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', lineHeight: 16, wordWrap: 'break-word'}}>Risk mitigation strategies</div>
+        </div>
+        <div data-layer="li" className="Li" style={{width: 312.67, height: 48, left: 0, top: 96, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+          <div data-svg-wrapper data-layer="div" className="Div" style={{left: 0, top: 4, position: 'absolute'}}>
+            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.65625 0C13.0745 0 16.6562 3.58172 16.6562 8C16.6562 12.4183 13.0745 16 8.65625 16C4.23797 16 0.65625 12.4183 0.65625 8C0.65625 3.58172 4.23797 0 8.65625 0Z" fill="#9B55C6"/>
+            <path d="M8.65625 0C13.0745 0 16.6562 3.58172 16.6562 8C16.6562 12.4183 13.0745 16 8.65625 16C4.23797 16 0.65625 12.4183 0.65625 8C0.65625 3.58172 4.23797 0 8.65625 0Z" stroke="#E5E7EB"/>
+            </svg>
+          </div>
+          <div data-layer="30-60-90 day implementation roadmaps" className="6090DayImplementationRoadmaps" style={{width: 228, height: 20, left: 28, top: 6, position: 'absolute', color: '#1F2937', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', lineHeight: 16, wordWrap: 'break-word'}}>30-60-90 day implementation roadmaps</div>
+        </div>
+        <div data-layer="li" className="Li" style={{width: 312.67, height: 24, left: 0, top: 156, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+          <div data-svg-wrapper data-layer="div" className="Div" style={{left: 0, top: 4, position: 'absolute'}}>
+            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.65625 0C13.0745 0 16.6562 3.58172 16.6562 8C16.6562 12.4183 13.0745 16 8.65625 16C4.23797 16 0.65625 12.4183 0.65625 8C0.65625 3.58172 4.23797 0 8.65625 0Z" fill="#9B55C6"/>
+            <path d="M8.65625 0C13.0745 0 16.6562 3.58172 16.6562 8C16.6562 12.4183 13.0745 16 8.65625 16C4.23797 16 0.65625 12.4183 0.65625 8C0.65625 3.58172 4.23797 0 8.65625 0Z" stroke="#E5E7EB"/>
+            </svg>
+          </div>
+          <div data-layer="Change management protocols" className="ChangeManagementProtocols" style={{width: 238, height: 20, left: 28, top: 2, position: 'absolute', color: '#1F2937', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', lineHeight: 16, wordWrap: 'break-word'}}>Change management protocols</div>
+        </div>
+      </div>
+    </div>
+    <div data-layer="div" className="Div" style={{width: 362.66, height: 342, left: 933.33, top: 672, position: 'absolute', background: 'white', boxShadow: '0px 15px 30px rgba(155, 85, 198, 0.30)', borderRadius: 12, outline: '1px #F3F4F6 solid', outlineOffset: '-1px'}}>
+      <div data-layer="div" className="Div" style={{width: 312.66, height: 64, left: 25, top: 25, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+        <div data-layer="div" className="Div" style={{width: 64, height: 64, left: 0, top: 0, position: 'absolute', background: 'linear-gradient(90deg, #9B55C6 0%, #4A8DFF 100%)', borderRadius: 8}}>
+          <div data-layer="Frame" className="Frame" style={{width: 24, height: 24, left: 20, top: 20, position: 'absolute', overflow: 'hidden', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+            <div data-svg-wrapper data-layer="Frame" className="Frame" style={{position: 'relative'}}>
+              <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_9_179)">
+              <path d="M3.32812 3C3.32812 2.17031 2.65781 1.5 1.82812 1.5C0.998437 1.5 0.328125 2.17031 0.328125 3V18.75C0.328125 20.8219 2.00625 22.5 4.07812 22.5H22.8281C23.6578 22.5 24.3281 21.8297 24.3281 21C24.3281 20.1703 23.6578 19.5 22.8281 19.5H4.07812C3.66562 19.5 3.32812 19.1625 3.32812 18.75V3ZM22.3875 7.05938C22.9734 6.47344 22.9734 5.52188 22.3875 4.93594C21.8016 4.35 20.85 4.35 20.2641 4.93594L15.3281 9.87656L12.6375 7.18594C12.0516 6.6 11.1 6.6 10.5141 7.18594L5.26406 12.4359C4.67813 13.0219 4.67813 13.9734 5.26406 14.5594C5.85 15.1453 6.80156 15.1453 7.3875 14.5594L11.5781 10.3734L14.2687 13.0641C14.8547 13.65 15.8063 13.65 16.3922 13.0641L22.3922 7.06406L22.3875 7.05938Z" fill="white"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_9_179">
+              <path d="M0.328125 0H24.3281V24H0.328125V0Z" fill="white"/>
+              </clipPath>
+              </defs>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div data-layer="ROI Specialization" className="RoiSpecialization" style={{width: 173, height: 24, left: 80, top: 20, position: 'absolute', color: '#1F2937', fontSize: 20, fontFamily: 'Inter', fontWeight: '500', lineHeight: 20, wordWrap: 'break-word'}}>ROI Specialization</div>
+      </div>
+      <div data-layer="ul" className="Ul" style={{width: 312.66, height: 156, left: 25, top: 113, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+        <div data-layer="li" className="Li" style={{width: 312.66, height: 48, left: 0, top: 0, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+          <div data-svg-wrapper data-layer="div" className="Div" style={{left: 0, top: 4, position: 'absolute'}}>
+            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.32812 0C12.7464 0 16.3281 3.58172 16.3281 8C16.3281 12.4183 12.7464 16 8.32812 16C3.90985 16 0.328125 12.4183 0.328125 8C0.328125 3.58172 3.90985 0 8.32812 0Z" fill="#9B55C6"/>
+            <path d="M8.32812 0C12.7464 0 16.3281 3.58172 16.3281 8C16.3281 12.4183 12.7464 16 8.32812 16C3.90985 16 0.328125 12.4183 0.328125 8C0.328125 3.58172 3.90985 0 8.32812 0Z" stroke="#E5E7EB"/>
+            </svg>
+          </div>
+          <div data-layer="Conversion rate optimization strategies" className="ConversionRateOptimizationStrategies" style={{width: 217, height: 20, left: 28, top: 6, position: 'absolute', color: '#1F2937', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', lineHeight: 16, wordWrap: 'break-word'}}>Conversion rate optimization strategies</div>
+        </div>
+        <div data-layer="li" className="Li" style={{width: 312.66, height: 24, left: 0, top: 60, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+          <div data-svg-wrapper data-layer="div" className="Div" style={{left: 0, top: 4, position: 'absolute'}}>
+            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.32812 0C12.7464 0 16.3281 3.58172 16.3281 8C16.3281 12.4183 12.7464 16 8.32812 16C3.90985 16 0.328125 12.4183 0.328125 8C0.328125 3.58172 3.90985 0 8.32812 0Z" fill="#9B55C6"/>
+            <path d="M8.32812 0C12.7464 0 16.3281 3.58172 16.3281 8C16.3281 12.4183 12.7464 16 8.32812 16C3.90985 16 0.328125 12.4183 0.328125 8C0.328125 3.58172 3.90985 0 8.32812 0Z" stroke="#E5E7EB"/>
+            </svg>
+          </div>
+          <div data-layer="Customer acquisition cost reduction" className="CustomerAcquisitionCostReduction" style={{width: 274, height: 20, left: 28, top: 2, position: 'absolute', color: '#1F2937', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', lineHeight: 16, wordWrap: 'break-word'}}>Customer acquisition cost reduction</div>
+        </div>
+        <div data-layer="li" className="Li" style={{width: 312.66, height: 24, left: 0, top: 96, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+          <div data-svg-wrapper data-layer="div" className="Div" style={{left: 0, top: 4, position: 'absolute'}}>
+            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.32812 0C12.7464 0 16.3281 3.58172 16.3281 8C16.3281 12.4183 12.7464 16 8.32812 16C3.90985 16 0.328125 12.4183 0.328125 8C0.328125 3.58172 3.90985 0 8.32812 0Z" fill="#9B55C6"/>
+            <path d="M8.32812 0C12.7464 0 16.3281 3.58172 16.3281 8C16.3281 12.4183 12.7464 16 8.32812 16C3.90985 16 0.328125 12.4183 0.328125 8C0.328125 3.58172 3.90985 0 8.32812 0Z" stroke="#E5E7EB"/>
+            </svg>
+          </div>
+          <div data-layer="Lifetime value maximization" className="LifetimeValueMaximization" style={{width: 209, height: 20, left: 28, top: 2, position: 'absolute', color: '#1F2937', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', lineHeight: 16, wordWrap: 'break-word'}}>Lifetime value maximization</div>
+        </div>
+        <div data-layer="li" className="Li" style={{width: 312.66, height: 24, left: 0, top: 132, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+          <div data-svg-wrapper data-layer="div" className="Div" style={{left: 0, top: 4, position: 'absolute'}}>
+            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.32812 0C12.7464 0 16.3281 3.58172 16.3281 8C16.3281 12.4183 12.7464 16 8.32812 16C3.90985 16 0.328125 12.4183 0.328125 8C0.328125 3.58172 3.90985 0 8.32812 0Z" fill="#9B55C6"/>
+            <path d="M8.32812 0C12.7464 0 16.3281 3.58172 16.3281 8C16.3281 12.4183 12.7464 16 8.32812 16C3.90985 16 0.328125 12.4183 0.328125 8C0.328125 3.58172 3.90985 0 8.32812 0Z" stroke="#E5E7EB"/>
+            </svg>
+          </div>
+          <div data-layer="Revenue acceleration frameworks" className="RevenueAccelerationFrameworks" style={{width: 257, height: 20, left: 28, top: 2, position: 'absolute', color: '#1F2937', fontSize: 16, fontFamily: 'Inter', fontWeight: '400', lineHeight: 16, wordWrap: 'break-word'}}>Revenue acceleration frameworks</div>
+        </div>
+      </div>
+    </div>
+    <div data-layer="button" className="Button" style={{width: 251.22, height: 48, left: 594.39, top: 1088, position: 'absolute', background: 'linear-gradient(90deg, #9B55C6 0%, #4A8DFF 100%)', boxShadow: '0px 0px 0px rgba(155, 85, 198, 0.09)', borderRadius: 8}}>
+      <div data-layer="Frame" className="Frame" style={{width: 18, height: 16, left: 32, top: 16, position: 'absolute', overflow: 'hidden', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+        <div data-svg-wrapper data-layer="Frame" className="Frame" style={{position: 'relative'}}>
+          <svg width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_9_45)">
+          <path d="M12.8906 0H5.89062C5.0625 0 4.3875 0.68125 4.41875 1.50625C4.425 1.67188 4.43125 1.8375 4.44063 2H1.14062C0.725 2 0.390625 2.33437 0.390625 2.75C0.390625 5.64375 1.4375 7.65625 2.84375 9.02188C4.22812 10.3688 5.91563 11.0469 7.15938 11.3906C7.89063 11.5938 8.39062 12.2031 8.39062 12.8156C8.39062 13.4688 7.85938 14 7.20625 14H6.39062C5.8375 14 5.39062 14.4469 5.39062 15C5.39062 15.5531 5.8375 16 6.39062 16H12.3906C12.9438 16 13.3906 15.5531 13.3906 15C13.3906 14.4469 12.9438 14 12.3906 14H11.575C10.9219 14 10.3906 13.4688 10.3906 12.8156C10.3906 12.2031 10.8875 11.5906 11.6219 11.3906C12.8687 11.0469 14.5563 10.3688 15.9406 9.02188C17.3438 7.65625 18.3906 5.64375 18.3906 2.75C18.3906 2.33437 18.0563 2 17.6406 2H14.3406C14.35 1.8375 14.3563 1.675 14.3625 1.50625C14.3938 0.68125 13.7188 0 12.8906 0ZM1.91875 3.5H4.55625C4.84063 6.31562 5.46875 8.19688 6.17812 9.45625C5.4 9.1125 4.59062 8.62813 3.89062 7.94688C2.89062 6.975 2.07812 5.57188 1.92188 3.5H1.91875ZM14.8938 7.94688C14.1938 8.62813 13.3844 9.1125 12.6062 9.45625C13.3156 8.19688 13.9437 6.31562 14.2281 3.5H16.8656C16.7063 5.57188 15.8938 6.975 14.8969 7.94688H14.8938Z" fill="white"/>
+          </g>
+          <defs>
+          <clipPath id="clip0_9_45">
+          <path d="M0.390625 0H18.3906V16H0.390625V0Z" fill="white"/>
+          </clipPath>
+          </defs>
+          </svg>
+        </div>
+      </div>
+      <div data-layer="Join Our Community" className="JoinOurCommunity" style={{width: 157, height: 20, left: 62, top: 14, position: 'absolute', textAlign: 'center', color: 'white', fontSize: 16, fontFamily: 'Inter', fontWeight: '500', wordWrap: 'break-word'}}>Join Our Community</div>
+    </div>
+    <div data-layer="Unlock achievements and gain access to exclusive resources" className="UnlockAchievementsAndGainAccessToExclusiveResources" style={{width: 404, height: 17, left: 515.30, top: 1149, position: 'absolute', textAlign: 'center', color: '#6B7280', fontSize: 14, fontFamily: 'Inter', fontWeight: '400', lineHeight: 14, wordWrap: 'break-word'}}>Unlock achievements and gain access to exclusive resources</div>
+  </div>
+</div>

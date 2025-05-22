@@ -2,6 +2,7 @@ import React from 'react';
 import { NextPage } from 'next';
 import Head from 'next/head';
 import ResponsiveHero from '../components/layout/ResponsiveHero';
+import PillarsSection from '../components/sections/PillarsSection';
 
 const Home: NextPage = () => {
   return (
@@ -122,6 +123,9 @@ const Home: NextPage = () => {
 
         {/* Hero Section - Responsywna wersja */}
         <ResponsiveHero />
+        
+        {/* Pillars Section */}
+        <PillarsSection />
       </div>
     </>
   );
