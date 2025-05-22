@@ -121,8 +121,8 @@ const Home: NextPage = () => {
           </button>
         </header>
 
-        {/* Hero Section - Responsywna wersja */}
-        <ResponsiveHero />
+        {/* Hero Section - Zoptymalizowana wersja */}
+        <OptimizedHero />
         
         {/* Pillars Section */}
         <PillarsSection />

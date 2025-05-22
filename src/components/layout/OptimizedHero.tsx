@@ -600,11 +600,8 @@ const OptimizedHero = () => {
               position: 'relative',
               border: '1px solid rgba(255, 255, 255, 0.1)',
               padding: '24px',
-              transition: 'transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out',
-              ':hover': {
-                transform: 'translateY(-5px)',
-                boxShadow: '0 25px 60px rgba(0, 0, 0, 0.2)'
-              }
+              transition: 'transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out'
+              // Uwaga: Pseudoklasy jak :hover musiałyby być zaimplementowane przez CSS lub bibliotekę stylów
             }}>
               {/* Dashboard header */}
               <div style={{ 
