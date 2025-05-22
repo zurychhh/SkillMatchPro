@@ -129,7 +129,7 @@ export const PATHS = {
 
 // API endpoints
 export const API_ENDPOINTS = {
-  ACHIEVEMENTS: '/api/achievements',
+  ACHIEVEMENTS: '/api/simple-achievements',
   NEWSLETTER: '/api/newsletter',
   BLOG: '/api/blog',
 };
