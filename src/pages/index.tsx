@@ -122,29 +122,6 @@ const Home: NextPage = () => {
 
         {/* Hero Section - Responsywna wersja */}
         <ResponsiveHero />
-        
-        {/* Trust badges */}
-        <section style={{ 
-          backgroundColor: 'white', 
-          color: '#333',
-          padding: '60px 40px',
-          textAlign: 'center'
-        }}>
-          <h2 style={{ fontSize: '32px', marginBottom: '40px' }}>Zaufali nam</h2>
-          <div style={{ 
-            display: 'flex', 
-            flexWrap: 'wrap',
-            justifyContent: 'center',
-            gap: '40px'
-          }}>
-            {/* Placeholder dla logo klientów */}
-            <div style={{ width: '160px', height: '60px', backgroundColor: '#f5f5f5', borderRadius: '8px' }}></div>
-            <div style={{ width: '160px', height: '60px', backgroundColor: '#f5f5f5', borderRadius: '8px' }}></div>
-            <div style={{ width: '160px', height: '60px', backgroundColor: '#f5f5f5', borderRadius: '8px' }}></div>
-            <div style={{ width: '160px', height: '60px', backgroundColor: '#f5f5f5', borderRadius: '8px' }}></div>
-            <div style={{ width: '160px', height: '60px', backgroundColor: '#f5f5f5', borderRadius: '8px' }}></div>
-          </div>
-        </section>
       </div>
     </>
   );
