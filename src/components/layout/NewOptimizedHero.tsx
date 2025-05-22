@@ -355,7 +355,7 @@ const NewOptimizedHero = () => {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                width: isMobile ? '100%' : 'auto',
+                minWidth: isMobile ? '100%' : '140px',
                 padding: '12px 20px', // Zgodnie ze zrzutem ekranu
                 backgroundColor: 'rgba(99, 102, 241, 0.1)', // Półprzezroczysty kolor zgodny ze zrzutem
                 borderRadius: '8px',
@@ -366,7 +366,7 @@ const NewOptimizedHero = () => {
                 cursor: 'pointer'
               }}>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ marginRight: '8px' }}>
-                  <path d="M8 8C10.21 8 12 6.21 12 4C12 1.79 10.21 0 8 0C5.79 0 4 1.79 4 4C4 6.21 5.79 8 8 8ZM8 10C5.33 10 0 11.34 0 14V16H16V14C16 11.34 10.67 10 8 10Z" fill="#6366F1"/>
+                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" fill="#6366F1"/>
                 </svg>
                 Join Community
               </button>
@@ -376,7 +376,7 @@ const NewOptimizedHero = () => {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                width: isMobile ? '100%' : 'auto',
+                minWidth: isMobile ? '100%' : '120px',
                 padding: '12px 20px', // Zgodnie ze zrzutem ekranu
                 background: '#F59E0B', // Amber accent z brandbook - bez gradientu
                 borderRadius: '8px',
@@ -387,7 +387,7 @@ const NewOptimizedHero = () => {
                 cursor: 'pointer'
               }}>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ marginRight: '8px' }}>
-                  <path d="M14 0H4C2.9 0 2 0.9 2 2V14C2 15.1 2.9 16 4 16H14C15.1 16 16 15.1 16 14V2C16 0.9 15.1 0 14 0ZM14 14H4V2H14V14ZM0 4H2V6H0V4ZM0 8H2V10H0V8ZM0 12H2V14H0V12ZM6 4H12V6H6V4ZM6 8H12V10H6V8ZM6 12H10V14H6V12Z" fill="white"/>
+                  <path d="M13.333 5.333H9.333V2.667c0-1.467-1.2-2.667-2.667-2.667-1.466 0-2.666 1.2-2.666 2.667v2.666H0v8c0 1.467 1.2 2.667 2.667 2.667h10.666c1.467 0 2.667-1.2 2.667-2.667v-8c0-1.466-1.2-2.666-2.667-2.666zM5.333 2.667c0-.733.6-1.334 1.334-1.334.733 0 1.333.601 1.333 1.334v2.666H5.333V2.667zM14.667 13.333c0 .733-.6 1.334-1.334 1.334H2.667a1.336 1.336 0 01-1.334-1.334v-6.666H4v1.333c0 .367.3.667.667.667.366 0 .666-.3.666-.667V6.667h5.334v1.333c0 .367.3.667.666.667.367 0 .667-.3.667-.667V6.667h2.667v6.666z" fill="white"/>
                 </svg>
                 Free eBook
               </button>
