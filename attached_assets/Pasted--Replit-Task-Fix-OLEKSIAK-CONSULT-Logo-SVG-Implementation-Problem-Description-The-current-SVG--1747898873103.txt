@@ -1,0 +1,119 @@
+# Replit Task: Fix OLEKSIAK CONSULT Logo SVG Implementation
+
+## Problem Description
+The current SVG logo implementation is too small and has excessive protective padding around it. The logo should be more prominent and properly sized for header/navigation use.
+
+## Current Issues to Fix:
+1. **Logo size is too small** - needs to be significantly larger
+2. **Excessive white space/padding** around the logo elements
+3. **Poor scaling** for different screen sizes
+4. **Inconsistent proportions** compared to the original design
+
+## Design Requirements Based on PNG Reference:
+
+### Typography Hierarchy:
+- **"OLEKSIAK"** - Should be the dominant text element, bold and prominent
+- **"CONSULT"** - Secondary text, same size as OLEKSIAK but lighter weight
+- **"AI EMPOWERED CRM SOLUTIONS"** - Subtitle, significantly smaller, positioned below
+
+### Color Scheme (from original design):
+- **Navy Blue**: `#162356` (primary text)
+- **Purple Accent**: `#9b55c6` (for gradient elements)
+- **Medium Blue**: `#5f7ee8` (gradient transitions)
+- **Light Blue**: `#4a8dff` (gradient highlights)
+
+### Layout Structure:
+```
+OLEKSIAK CONSULT
+[gradient progress bar]
+AI EMPOWERED CRM SOLUTIONS
+```
+
+## SVG Implementation Instructions:
+
+### 1. Create New SVG with Proper Dimensions:
+```xml
+<svg viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Remove excessive padding, optimize viewBox -->
+</svg>
+```
+
+### 2. Typography Sizing:
+- **Main title (OLEKSIAK CONSULT)**: font-size="24" or larger
+- **Subtitle**: font-size="10-12"
+- **Letter spacing**: Properly adjusted for readability
+
+### 3. Gradient Bar Implementation:
+- Position between main title and subtitle
+- Width: 80-90% of logo width
+- Height: 6-8px
+- Rounded corners (rx="3")
+- Proper gradient from purple to blue
+
+### 4. Responsive Behavior:
+- Ensure logo scales properly on mobile (min-width considerations)
+- Maintain aspect ratio
+- Test at multiple sizes (header, footer, mobile menu)
+
+## Code Structure to Update:
+
+### In your header component, replace the current logo with:
+```jsx
+<div className="logo-container">
+  <svg 
+    width="300" 
+    height="90" 
+    viewBox="0 0 400 120" 
+    className="h-12 w-auto md:h-16" // Responsive sizing
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    {/* Updated logo elements here */}
+  </svg>
+</div>
+```
+
+### CSS Classes to Add:
+```css
+.logo-container {
+  display: flex;
+  align-items: center;
+  min-width: 250px; /* Prevent over-shrinking */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .logo-container svg {
+    height: 40px;
+    width: auto;
+  }
+}
+```
+
+## Testing Checklist:
+- [ ] Logo is clearly visible and prominent in header
+- [ ] Text is readable at all screen sizes
+- [ ] Gradient bar displays correctly
+- [ ] No excessive white space around logo
+- [ ] Maintains aspect ratio when scaling
+- [ ] Works on both light and dark backgrounds
+- [ ] Mobile responsive (doesn't break layout)
+
+## Implementation Priority:
+1. **First**: Fix the viewBox and remove padding
+2. **Second**: Increase font sizes significantly
+3. **Third**: Implement proper gradient bar
+4. **Fourth**: Add responsive classes
+5. **Fifth**: Test across different screen sizes
+
+## Expected Result:
+The logo should be **2-3 times larger** than current implementation, clearly readable, and properly positioned as the primary brand element in your header navigation.
+
+## Files to Update:
+- `src/components/layout/Header.jsx` (or wherever logo is currently implemented)
+- `src/styles/globals.css` (add responsive logo styles)
+- Test the logo in: header, footer, mobile menu, and any other brand placements
+
+## Additional Considerations:
+- Consider creating multiple logo variants (horizontal, stacked, icon-only) for different use cases
+- Ensure logo works well with your achievement progress bar at the top
+- Test logo visibility against your navy blue header background color

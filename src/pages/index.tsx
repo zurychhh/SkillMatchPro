@@ -41,34 +41,56 @@ const Home: NextPage = () => {
           position: 'relative',
           zIndex: 10
         }}>
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-            <div style={{ 
-              color: '#162356', 
-              fontSize: '24px', 
-              fontWeight: 'bold', 
-              fontFamily: 'Inter, sans-serif',
-              letterSpacing: '0.5px'
-            }}>
-              OLEKSIAK CONSULT
-            </div>
-            <div style={{ 
-              width: '100%',
-              height: '4px',
-              marginTop: '2px',
-              background: 'linear-gradient(90deg, #9B55C6 0%, #5F7EE8 50%, #4A8DFF 100%)',
-              borderRadius: '10px',
-              position: 'relative'
-            }}>
-              <div style={{ 
-                position: 'absolute',
-                width: '12px',
-                height: '12px',
-                borderRadius: '50%',
-                backgroundColor: '#5F7EE8',
-                right: '10%',
-                top: '-4px'
-              }}></div>
-            </div>
+          <div style={{ 
+            display: 'flex', 
+            flexDirection: 'column', 
+            alignItems: 'flex-start',
+            minWidth: '250px' 
+          }}>
+            <svg 
+              width="300" 
+              height="90" 
+              viewBox="0 0 400 120" 
+              style={{
+                height: '50px',
+                width: 'auto'
+              }}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              {/* Main logo text */}
+              <text x="10" y="50" style={{ 
+                fill: '#162356', 
+                fontSize: '36px', 
+                fontWeight: 'bold', 
+                fontFamily: 'Inter, sans-serif'
+              }}>OLEKSIAK</text>
+              
+              <text x="220" y="50" style={{ 
+                fill: '#162356', 
+                fontSize: '36px', 
+                fontWeight: '500', 
+                fontFamily: 'Inter, sans-serif'
+              }}>CONSULT</text>
+              
+              {/* Gradient bar */}
+              <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stopColor="#9B55C6" />
+                <stop offset="50%" stopColor="#5F7EE8" />
+                <stop offset="100%" stopColor="#4A8DFF" />
+              </linearGradient>
+              
+              <rect x="10" y="60" width="350" height="8" rx="4" fill="url(#logoGradient)" />
+              <circle cx="320" cy="64" r="6" fill="#5F7EE8" />
+              
+              {/* Subtitle */}
+              <text x="10" y="90" style={{ 
+                fill: '#162356', 
+                fontSize: '16px', 
+                fontWeight: '400', 
+                fontFamily: 'Inter, sans-serif',
+                letterSpacing: '0.5px'
+              }}>AI EMPOWERED CRM SOLUTIONS</text>
+            </svg>
           </div>
           
           <nav style={{ 
