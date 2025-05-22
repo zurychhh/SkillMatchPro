@@ -62,8 +62,8 @@ const CampaignExecutionIcon = () => (
     </g>
     <defs>
       <linearGradient id="campaign-gradient" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
-        <stop offset="0%" stopColor="#EC4899" />
-        <stop offset="100%" stopColor="#F43F5E" />
+        <stop offset="0%" stopColor="#8B5CF6" />
+        <stop offset="100%" stopColor="#6366F1" />
       </linearGradient>
     </defs>
   </svg>
@@ -78,8 +78,8 @@ const ProjectImplementationIcon = () => (
     </g>
     <defs>
       <linearGradient id="project-gradient" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
-        <stop offset="0%" stopColor="#10B981" />
-        <stop offset="100%" stopColor="#059669" />
+        <stop offset="0%" stopColor="#6366F1" />
+        <stop offset="100%" stopColor="#4F46E5" />
       </linearGradient>
     </defs>
   </svg>
@@ -95,8 +95,8 @@ const ROISpecializationIcon = () => (
     </g>
     <defs>
       <linearGradient id="roi-gradient" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
-        <stop offset="0%" stopColor="#F59E0B" />
-        <stop offset="100%" stopColor="#D97706" />
+        <stop offset="0%" stopColor="#6366F1" />
+        <stop offset="100%" stopColor="#4F46E5" />
       </linearGradient>
     </defs>
   </svg>
@@ -309,22 +309,25 @@ const CompactPillarsSection = () => {
           ))}
         </div>
         
-        {/* CTA Button z gradientem zgodnym z Achievement System */}
+        {/* CTA Button - dokładnie jak w załączonym zrzucie ekranu */}
         <div style={{
           width: '100%',
-          marginTop: '32px' // Spacing system: 32px
+          marginTop: '32px', // Spacing system: 32px
+          display: 'flex',
+          justifyContent: 'center'
         }}>
           <button style={{
-            width: '100%',
-            padding: '16px', // Buttons: 16px vertical padding
-            background: 'linear-gradient(90deg, #3B82F6, #1E40AF)', // Traveler gradient wg brandbooka
+            width: 'auto',
+            maxWidth: '507px', // Dokładna szerokość jak na zrzucie ekranu
+            padding: '12px 24px', // Zgodne ze zrzutem ekranu
+            background: '#8B5CF6', // Secondary: #8B5CF6 (Purple) z brandbooka
             color: '#F8FAFC', // Text Light wg brandbooka
-            fontSize: '16px',
+            fontSize: '14px',
             fontWeight: '600', // CTA buttons: font-weight 600 wg brandbooka
             border: 'none',
             borderRadius: '8px', // Border radius: 8px (buttons) wg brandbooka
             cursor: 'pointer',
-            boxShadow: '0 2px 8px rgba(0,0,0,0.1)' // Shadows wg brandbooka
+            boxShadow: '0 2px 4px rgba(0,0,0,0.1)' // Delikatny cień zgodny ze zrzutem
           }}>
             Join Our Community - Unlock achievements and exclusive resources
           </button>
