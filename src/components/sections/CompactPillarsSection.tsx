@@ -264,9 +264,7 @@ const CompactPillarsSection = () => {
   return (
     <section style={{
       background: 'white',
-      padding: isMobile ? '40px 0' : '60px 0',
-      maxHeight: '400px',
-      overflow: 'hidden'
+      padding: isMobile ? '40px 0' : '60px 0'
     }}>
       <Container>
         {/* Header */}
