@@ -61,12 +61,13 @@ const GuaranteeIcon = () => (
 
 // Funnel Chart Component
 const CustomerFunnel = () => {
+  // Używamy dokładnie takich samych wartości i formatowania między serwerem a klientem
   const funnelData = [
-    { label: 'Visitors', value: 10000, color: '#6366F1', percentage: '100%', width: '100%' },
-    { label: 'Leads', value: 2500, color: '#8B5CF6', percentage: '25%', width: '75%' },
-    { label: 'Qualified', value: 750, color: '#EC4899', percentage: '30%', width: '50%' },
-    { label: 'Customers', value: 188, color: '#F59E0B', percentage: '25%', width: '30%' },
-    { label: 'Repeat Buyers', value: 94, color: '#10B981', percentage: '50%', width: '15%' }
+    { label: 'Visitors', value: '10 000', color: '#6366F1', percentage: '100%', width: '100%' },
+    { label: 'Leads', value: '2 500', color: '#8B5CF6', percentage: '25%', width: '75%' },
+    { label: 'Qualified', value: '750', color: '#EC4899', percentage: '30%', width: '50%' },
+    { label: 'Customers', value: '188', color: '#F59E0B', percentage: '25%', width: '30%' },
+    { label: 'Repeat Buyers', value: '94', color: '#10B981', percentage: '50%', width: '15%' }
   ];
 
   return (

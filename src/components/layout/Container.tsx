@@ -64,6 +64,7 @@ const Container: React.FC<ContainerProps> = ({
     return value.mobile;
   };
   
+  // Używamy standardowego formatu React dla stylów inline
   const containerStyle: CSSProperties = {
     width: '100%',
     maxWidth,
