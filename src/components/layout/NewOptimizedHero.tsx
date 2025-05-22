@@ -316,120 +316,39 @@ const NewOptimizedHero = () => {
               Bridge The Gap Between Technical Innovation & Customer Acquisition
             </h1>
             
-            {/* NEW USP Section */}
+            {/* Skrócony USP Section - tylko 2 linie */}
             <div style={{
               fontSize: '18px',
-              lineHeight: '1.6',
+              lineHeight: '1.5',
               color: '#E2E8F0',
-              maxWidth: '600px',
-              margin: '20px 0 40px 0'
+              maxWidth: '500px',
+              margin: '20px 0 32px 0'
             }}>
-              Transform your AI-built startup into a customer acquisition powerhouse. 
-              <br /><br />
-              We specialize in helping visionary entrepreneurs who excel at building with AI and no-code platforms but need proven CRM strategies to convert their technical innovation into paying customers. Our approach combines enterprise-level marketing automation expertise with startup-friendly implementation, delivering measurable results in 30-60-90 days.
-              <br /><br />
-              This website itself demonstrates our gamification expertise – as you explore, you'll experience the same engagement techniques we implement for our clients' customer journeys.
+              We transform AI-native startups into customer acquisition powerhouses.
+              Get proven CRM strategies that reduce acquisition costs by 42% in 90 days.
             </div>
             
-            {/* Feature points with icons */}
-            <div style={{ marginBottom: isMobile ? '40px' : '60px' }}>
-              <div style={{ 
-                display: 'flex', 
-                alignItems: 'center', 
-                marginBottom: '24px'
-              }}>
-                <div style={{ 
-                  width: '40px', 
-                  height: '40px', 
-                  borderRadius: '50%', 
-                  background: 'linear-gradient(135deg, #6366F1 0%, #4F46E5 100%)', // Primary Indigo
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  marginRight: '16px',
-                  boxShadow: '0 10px 15px rgba(99, 102, 241, 0.25)'
-                }}>
-                  <FeatureIcon />
-                </div>
-                <div style={{ 
-                  fontSize: isMobile ? '16px' : '18px',
-                  lineHeight: '20px',
-                  color: '#F8FAFC'
-                }}>
-                  ↓ in acquisition costs
-                </div>
-              </div>
-              
-              <div style={{ 
-                display: 'flex', 
-                alignItems: 'center', 
-                marginBottom: '24px'
-              }}>
-                <div style={{ 
-                  width: '40px', 
-                  height: '40px', 
-                  borderRadius: '50%', 
-                  background: 'linear-gradient(135deg, #6366F1 0%, #4F46E5 100%)', // Primary Indigo
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  marginRight: '16px',
-                  boxShadow: '0 10px 15px rgba(99, 102, 241, 0.25)'
-                }}>
-                  <PriceIcon />
-                </div>
-                <div style={{ 
-                  fontSize: isMobile ? '16px' : '18px',
-                  lineHeight: '20px',
-                  color: '#F8FAFC'
-                }}>
-                  💎 pricing
-                </div>
-              </div>
-              
-              <div style={{ 
-                display: 'flex', 
-                alignItems: 'center',
-                marginBottom: '24px'
-              }}>
-                <div style={{ 
-                  width: '40px', 
-                  height: '40px', 
-                  borderRadius: '50%', 
-                  background: 'linear-gradient(135deg, #6366F1 0%, #4F46E5 100%)', // Primary Indigo
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  marginRight: '16px',
-                  boxShadow: '0 10px 15px rgba(99, 102, 241, 0.25)'
-                }}>
-                  <GuaranteeIcon />
-                </div>
-                <div style={{ 
-                  fontSize: isMobile ? '16px' : '18px',
-                  lineHeight: '20px',
-                  color: '#F8FAFC'
-                }}>
-                  ⭕ guaranteed
-                </div>
-              </div>
-            </div>
-            
-            {/* CTA Buttons - 3 vertically stacked */}
-            <div style={{ marginBottom: '60px' }}>
+            {/* CTA Buttons - poziomy layout zgodnie z wytycznymi */}
+            <div style={{ 
+              display: 'flex', 
+              gap: '16px', 
+              marginBottom: '40px',
+              justifyContent: 'flex-start',
+              flexDirection: isMobile ? 'column' : 'row'
+            }}>
+              {/* Primary CTA - Opportunity Calculator */}
               <button style={{ 
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                width: isMobile ? '100%' : '320px',
-                padding: '15px 24px',
-                backgroundColor: '#6366F1',
+                width: isMobile ? '100%' : '180px',
+                padding: '16px 24px',
+                background: 'linear-gradient(135deg, #6366F1, #4F46E5)',
                 borderRadius: '8px',
                 color: 'white',
                 fontSize: '16px',
                 fontWeight: '600',
                 border: 'none',
-                marginBottom: '16px',
                 boxShadow: '0 10px 25px rgba(99, 102, 241, 0.3)',
                 cursor: 'pointer'
               }}>
@@ -437,43 +356,42 @@ const NewOptimizedHero = () => {
                 Opportunity Calculator
               </button>
               
+              {/* Secondary CTA - Join Community */}
               <button style={{ 
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                width: isMobile ? '100%' : '320px',
-                padding: '14px 24px',
+                width: isMobile ? '100%' : '140px',
+                padding: '14px 20px',
                 backgroundColor: 'transparent',
                 borderRadius: '8px',
-                color: 'white',
+                color: '#6366F1',
                 fontSize: '16px',
                 fontWeight: '500',
-                border: '1px solid rgba(255, 255, 255, 0.2)',
-                marginBottom: '16px',
+                border: '2px solid #6366F1',
                 cursor: 'pointer'
               }}>
                 <div style={{ marginRight: '8px' }}>👥</div>
-                Join Our Community
+                Join Community
               </button>
               
-              {/* NEW - trzeci przycisk do ebooka */}
+              {/* Tertiary CTA - Free Ebook */}
               <button style={{ 
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                width: isMobile ? '100%' : '320px',
-                padding: '14px 24px',
-                backgroundColor: '#F59E0B',
+                width: isMobile ? '100%' : '120px',
+                padding: '14px 16px',
+                background: 'linear-gradient(135deg, #F59E0B, #D97706)',
                 borderRadius: '8px',
                 color: 'white',
-                fontSize: '16px',
+                fontSize: '14px',
                 fontWeight: '500',
                 border: 'none',
-                marginBottom: '16px',
                 cursor: 'pointer'
               }}>
                 <div style={{ marginRight: '8px' }}>📚</div>
-                Download Free Marketing Automation 101 Ebook
+                Free Ebook
               </button>
             </div>
             
