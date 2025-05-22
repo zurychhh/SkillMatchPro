@@ -174,32 +174,21 @@ const CustomerFunnel = () => {
   );
 };
 
-// Uproszczony panel metryk zgodnie z wytycznymi
+// Uproszczony panel metryk zgodnie z wytycznymi i brandbook
 const SimplifiedMetricsPanel = () => {
+  // Usunięto dwa pierwsze kwadrat z danymi zgodnie z prośbą użytkownika
   const metricsData = [
-    { 
-      title: 'CAC Reduction', 
-      value: '42%', 
-      subtext: 'vs. Industry Average',
-      color: '#6366F1'
-    },
-    { 
-      title: 'Lead Quality Score', 
-      value: '87/100', 
-      subtext: 'Email Open Rate: 38.5%',
-      color: '#8B5CF6'
-    },
     { 
       title: 'Free-to-Paid Conversion', 
       value: '+12.3pp', 
       subtext: 'Customer LTV: $2,847',
-      color: '#EC4899'
+      color: '#EC4899' // Zgodny z brandbook
     },
     { 
       title: 'ROI Impact', 
       value: '3.8x', 
       subtext: '90-day results',
-      color: '#F59E0B'
+      color: '#F59E0B' // Amber accent z brandbook
     }
   ];
 
@@ -207,38 +196,40 @@ const SimplifiedMetricsPanel = () => {
     <div style={{ 
       display: 'grid',
       gridTemplateColumns: 'repeat(2, 1fr)',
-      gap: '16px',
-      marginBottom: '20px'
+      gap: '16px', // Grid gap: 20px standard wg brandbooka
+      marginBottom: '32px' // Spacing system: 32px
     }}>
       {metricsData.map((metric, index) => (
         <div key={index} style={{
           backgroundColor: 'rgba(255, 255, 255, 0.05)',
-          borderRadius: '8px',
-          padding: '16px',
+          borderRadius: '12px', // Border radius: 12px (cards) wg brandbooka
+          padding: '16px', // Cards: 16px padding wg brandbooka
           display: 'flex',
           flexDirection: 'column',
-          alignItems: 'center'
+          alignItems: 'center',
+          boxShadow: '0 2px 8px rgba(0,0,0,0.1)' // Shadows wg brandbooka
         }}>
           <div style={{ 
             fontSize: '24px', 
-            fontWeight: '600',
-            color: 'white',
-            marginBottom: '4px'
+            fontWeight: '600', // CTA buttons: font-weight 600 wg brandbooka
+            color: '#F8FAFC', // Text Light wg brandbooka
+            marginBottom: '8px' // Spacing system: 8px
           }}>
             {metric.value}
           </div>
           <div style={{ 
             fontSize: '14px', 
-            fontWeight: '500',
-            color: 'white',
-            marginBottom: '6px'
+            fontWeight: '500', // Body text: 400-500 wg brandbooka
+            color: '#F8FAFC', // Text Light wg brandbooka
+            marginBottom: '8px' // Spacing system: 8px
           }}>
             {metric.title}
           </div>
           <div style={{ 
             fontSize: '12px', 
-            color: 'rgba(255, 255, 255, 0.7)',
-            textAlign: 'center'
+            color: '#E2E8F0', // Jaśniejszy odcień Text Gray wg brandbooka
+            textAlign: 'center',
+            fontWeight: '400' // Body text: 400-500 wg brandbooka
           }}>
             {metric.subtext}
           </div>
@@ -248,17 +239,17 @@ const SimplifiedMetricsPanel = () => {
   );
 };
 
-// Optimized Hero Section Component - finalna wersja zgodnie z wytycznymi
+// Optimized Hero Section Component - zgodny z biblioteką komponentów i brandbook
 const NewOptimizedHero = () => {
   const { isMobile, isTablet } = useResponsive();
   
   return (
     <section style={{
-      backgroundColor: '#1E293B', // Dark Navy background
-      background: 'linear-gradient(135deg, #1E293B 0%, #0F172A 100%)', // Gradient dark navy
+      backgroundColor: '#1E293B', // Background Dark wg brandbooka
+      background: 'linear-gradient(135deg, #1E293B 0%, #0F172A 100%)', // Gradient zgodny z brandbook
       position: 'relative',
       overflow: 'hidden',
-      paddingBottom: isMobile ? '60px' : '100px',
+      paddingBottom: isMobile ? '40px' : '60px', // Section padding: 40px/60px wg brandbooka
       minHeight: isMobile ? 'auto' : '80vh'
     }}>
       {/* Background gradient oval */}
@@ -307,32 +298,33 @@ const NewOptimizedHero = () => {
           }}>
             <h1 style={{ 
               fontSize: isMobile ? '32px' : '48px',
-              fontWeight: '700',
+              fontWeight: '700', // Headlines: font-weight 700 wg brandbooka
               lineHeight: '1.2',
-              color: '#F8FAFC', // Light text color
+              color: '#F8FAFC', // Text Light wg brandbooka
               marginTop: '0',
-              marginBottom: '24px',
+              marginBottom: '24px', // Spacing system: 24px
             }}>
               Bridge The Gap Between Technical Innovation & Customer Acquisition
             </h1>
             
-            {/* Skrócony USP Section - tylko 2 linie */}
+            {/* Skrócony USP Section - tylko 2 linie zgodnie z wymaganiami */}
             <div style={{
               fontSize: '18px',
               lineHeight: '1.5',
-              color: '#E2E8F0',
+              color: '#F8FAFC', // Text Light wg brandbooka
               maxWidth: '500px',
-              margin: '20px 0 32px 0'
+              margin: '20px 0 32px 0', // Spacing system: 32px
+              fontWeight: '400' // Body text: 400-500 wg brandbooka
             }}>
               We transform AI-native startups into customer acquisition powerhouses.
               Get proven CRM strategies that reduce acquisition costs by 42% in 90 days.
             </div>
             
-            {/* CTA Buttons - poziomy layout zgodnie z wytycznymi */}
+            {/* CTA Buttons - poziomy layout zgodnie z biblioteką komponentów */}
             <div style={{ 
               display: 'flex', 
-              gap: '16px', 
-              marginBottom: '40px',
+              gap: '16px', // Spacing system: 16px
+              marginBottom: '40px', // Spacing system: 40px
               justifyContent: 'flex-start',
               flexDirection: isMobile ? 'column' : 'row'
             }}>
@@ -342,11 +334,12 @@ const NewOptimizedHero = () => {
                 alignItems: 'center',
                 justifyContent: 'center',
                 width: isMobile ? '100%' : '180px',
-                padding: '16px 24px',
-                background: 'linear-gradient(135deg, #6366F1, #4F46E5)',
-                borderRadius: '8px',
-                color: 'white',
+                padding: '16px 24px', // Buttons: 16px vertical padding
+                background: 'linear-gradient(90deg, #6366F1, #4F46E5)', // Primary: #6366F1 (Indigo)
+                borderRadius: '8px', // Border radius: 8px (buttons)
+                color: '#F8FAFC', // Text Light
                 fontSize: '16px',
+                fontWeight: '600', // CTA buttons: font-weight 600
                 fontWeight: '600',
                 border: 'none',
                 boxShadow: '0 10px 25px rgba(99, 102, 241, 0.3)',
